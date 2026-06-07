@@ -1,0 +1,77 @@
+﻿<html>
+<head>
+<title>フォルダー (オプション ダイアログBOX)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">フォルダー (オプション ダイアログBOX)</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">フォルダー登録時のデフォルト設定</div>
+
+<div class="p2">
+フォルダーを登録した場合にデフォルトで設定される、フォルダーの表示方法を選択します。<br>
+フォルダーの表示方法は、登録後に「<a href="dlgItemProp.htm#folderopen">アイテムのプロパティ</a>」ダイアログBOXで変更することもできます。<br>
+</div>
+
+<div class="p1">
+<ul class="selection">
+<li><b>開く</b><br>
+対象フォルダーを、システムデフォルトのフォルダーウィンドウでオープンします。
+
+<li><b>エクスプローラー</b><br>
+対象フォルダーを、ナビゲーションペインが表示された状態のエクスプローラーでオープンします。
+
+<li><b>メニュー展開</b><br>
+対象フォルダーの内容を<a href="extFolderMenu.htm">メニュー展開表示</a>します。
+</ul>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">ファイルドロップ時の動作</div>
+<div class="p2">
+フォルダーアイテムにファイルをドラッグ＆ドロップした際の動作を選択します。<br>
+</div>
+
+<div class="p2">
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<span class="bracket">「</span>コピー」を選択した場合、マウス単独のドラッグ＆ドロップでファイルコピー、Shiftキーを押しながらドラッグ＆ドロップでファイル移動になります。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<span class="bracket">「</span>移動」を選択した場合、マウス単独のドラッグ＆ドロップでファイル移動、Ctrlキーを押しながらドラッグ＆ドロップでファイルコピーになります。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<span class="bracket">「</span>システムデフォルト」を選択した場合、ドロップ先のフォルダーと同一ドライブ内にあるファイルは移動になり、別ドライブにあるファイルはコピーとなります。またいずれの場合でも、Shiftキーが押されていれば移動、Ctrlキーが押されていればコピーになります。
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">ファイラー</div>
+<div class="p2">
+フォルダーを開く際、エクスプローラーの代わりに起動するファイル管理ソフトを指定します。<br>
+「ファイラーを使用する」をチェックし、代替プログラムのパス名を入力してください。
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>パラメータ</b><br>
+ファイラーのコマンドラインに渡す、共通パラメータを指定してください。<br>
+パラメータ文字列は以下のように連結されます。
+</div>
+</div>
+<div class="gap1"><br></div>
+
+<ul class="p2list-ul">
+<li><b>通常フォルダーの場合</b><br>
+[アイテムごとのパラメータ]&ensp;[共通パラメータ]&ensp;[フォルダーのパス名]
+<li style="margin-top: 10"><b>特殊フォルダーの場合</b><br>
+[アイテムごとのパラメータ]&ensp;[共通パラメータ]
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+﻿<html>
+<head>
+<title>Installation and Uninstallation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Installation and Uninstallation</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">Automatic Installation</div>
+<div class="p2">
+Double-click the downloaded self-extracting archive to start <b>Setup.exe</b> and begin the installation.
+When the installation is complete, CLaunch starts automatically and a tray icon
+<img src="images/CLTray.ico"> appears in the system tray.<br>
+If CLaunch is registered in Startup, it will automatically run when Windows starts the next time.<br>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+If you check <b><a href="extClAdmin.htm">Startup with ClAdmin</a></b> when registering CLaunch in Startup,
+mouse actions and hotkeys assigned to displaying CLaunch or launching applications will also work on
+applications running with administrator privileges.
+</div>
+
+</div>
+
+<div class="h2"><img src="images/Dot.png">Manual Installation</div>
+<div class="p2">
+Extract the downloaded ZIP archive to any folder and run <b>CLaunch.exe</b> to start using it immediately.<br>
+If you want to install CLaunch on removable media such as a USB flash drive, use this method.<br>
+When manually installing to a fixed disk, create a shortcut to <b>CLaunch.exe</b> and register it in Startup if necessary.<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Updating</div>
+<div class="p2">
+When updating from a previous version, be sure to perform an overwrite installation.<br>
+If you uninstall a previous version, all registered items and configuration data will be deleted.<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Uninstallation</div>
+<div class="p2">
+If CLaunch was installed using the automatic installer, it is registered in
+<b>Programs and Features</b> in Control Panel.
+Select <b>CLaunch</b> from the list and choose <b>Uninstall or change</b> to remove it automatically.<br>
+If CLaunch was installed manually, delete the extracted files and the data files created during execution
+by removing the entire folder.<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Data Folder Location</div>
+<div class="p2">
+The location of the data folder depends on the CLaunch installation folder.<br>
+<div class="gap2"><br></div>
+
+If installed in a folder where writing is restricted by UAC (such as <b>C:\Program Files</b>):<br>
+&emsp;Multi-user mode (default) &nbsp;&nbsp;&nbsp;-&gt; C:\Users\Username\AppData\Roaming\CLaunch<br>
+&emsp;Single-user mode (optional) -&gt; C:\ProgramData\CLaunch<br>
+<div class="gap2"><br></div>
+
+If installed in a folder without write restrictions:<br>
+&emsp;The <b>Data</b> folder under the CLaunch installation directory<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Registry</div>
+<div class="p2">
+CLaunch does not use the registry.<br>
+However, when using automatic installation, uninstallation information is registered at the following location:<br>
+<div class="gap1"><br></div>
+<b>[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall]</b><br>
+<div class="gap1"><br></div>
+This information is removed during uninstallation.<br>
+</div>
+
+</body>
+</html>

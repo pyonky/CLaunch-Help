@@ -1,0 +1,64 @@
+﻿<html>
+<head>
+<title>Auto-unhook Settings dialog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Auto-unhook Settings dialog</div>
+
+<div class="p1">
+This dialog appears when you click the <a href="dlgItemProp.htm#autounhook"><b>Auto-unhook Settings</b></a> button in the <b>Item Properties</b> dialog for a program or document item.
+</div>
+
+<br><hr><br>
+
+<div class="p1">
+The following settings apply only to the item for which this dialog was opened.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Unhook before launching this program</div>
+<div class="p2">
+Automatically performs <a href="extSuspend.htm">Unhook</a> before launching the program registered to the item.<br>
+If the program is launched as a <a href="extChainLaunch.htm">Chain Launch Item</a>, this option is ignored.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Automatically resume the hook when the launched program exits<sup>*1</sup></div>
+<div class="p2">
+Monitors the launched program and automatically resumes the hook when it exits.<br>
+This option is ignored if the program is launched with administrator privileges.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Automatically resume the hook when the specified program exits<sup>*1</sup></div>
+<div class="p2">
+Monitors a user-specified program and automatically resumes the hook when it exits.
+</div>
+
+<br>
+<div class="p1">
+<div class="note_num">
+<b>*1 If both hook-resume options are enabled, the hook will resume when either program exits.</b>
+</div>
+</div>
+
+<br><hr><br>
+
+<div class="p1">
+The following settings are common settings that affect all registered items.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Delay between unhooking and launching the program</div>
+<div class="p2">
+After unhooking, the specified delay time is applied before launching the registered program.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Resume the hook when CLaunch appears</div>
+<div class="p2">
+When manually resuming the hook, you do not need to reselect <b>Unhook</b> from the <a href="menuMain.htm"><b>Main Menu</b></a>; the hook will automatically resume when the CLaunch window appears.<br>
+While unhooked, you can display the CLaunch window by clicking the task tray icon or by <a href="extStartupOption.htm"><b>Launching Multiple Instances of CLaunch</b></a>.
+</div>
+
+</body>
+</html>

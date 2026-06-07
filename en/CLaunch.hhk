@@ -1,0 +1,669 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Operating Environment">
+		<param name="Local" value="fstEnvironment.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Supported Operating Systems">
+		<param name="Local" value="fstEnvironment.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mouse">
+		<param name="Local" value="fstEnvironment.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Installation">
+		<param name="Local" value="fstInstall.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Uninstallation">
+		<param name="Local" value="fstInstall.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Buttons">
+		<param name="Local" value="fstView.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Page Tabs">
+		<param name="Local" value="fstView.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Displaying CLaunch">
+		<param name="Local" value="useShowHide.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Registration by Drag-and-drop">
+		<param name="Local" value="useRegister.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Registration by Menu Command">
+		<param name="Local" value="useRegister.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Registration of the Running Applications">
+		<param name="Local" value="useRegister.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Launching Items">
+		<param name="Local" value="useLaunch.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Switching Pages">
+		<param name="Local" value="usePage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Adding Pages">
+		<param name="Local" value="usePage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Reordering Pages">
+		<param name="Local" value="usePage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Submenus">
+		<param name="Local" value="useSubmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Moving Items">
+		<param name="Local" value="useMoveItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Copying Items">
+		<param name="Local" value="useMoveItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Moving Items Between Pages">
+		<param name="Local" value="useMoveItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Changing the Window Size (Number of Buttons)">
+		<param name="Local" value="useResize.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Keyboard Operations">
+		<param name="Local" value="useKeyboard.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Changing the Design">
+		<param name="Local" value="useDesign.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Folder Contents Menu">
+		<param name="Local" value="extFolderMenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Drag-and-drop">
+		<param name="Local" value="useDnD.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OLE Drag-and-drop">
+		<param name="Local" value="useDnD.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mouse Operations">
+		<param name="Local" value="useMouse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Locking Buttons">
+		<param name="Local" value="extButtonLock.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Launching Multiple Items">
+		<param name="Local" value="extChainLaunch.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Event-Based Launch">
+		<param name="Local" value="extEvents.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pin the CLaunch Window">
+		<param name="Local" value="extPin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Restricted Mode">
+		<param name="Local" value="extSuspend.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Unhook">
+		<param name="Local" value="extSuspend.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Item Search">
+		<param name="Local" value="extSearchItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="View Mode">
+		<param name="Local" value="extViewMode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Backing Up Settings">
+		<param name="Local" value="extBackup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Backing Up Design Settings">
+		<param name="Local" value="extBackup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Restore from the Backup File">
+		<param name="Local" value="extBackup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Relative Path">
+		<param name="Local" value="extConvertPath.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Absolute Path">
+		<param name="Local" value="extConvertPath.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Updating Icon Images">
+		<param name="Local" value="extIconRefresh.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Plugins">
+		<param name="Local" value="extPlugin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Skins">
+		<param name="Local" value="extSkin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Startup Options">
+		<param name="Local" value="extStartupOption.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Launching Multiple Instances of CLaunch">
+		<param name="Local" value="extStartupOption.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ClAdmin">
+		<param name="Local" value="extClAdmin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Main Menu">
+		<param name="Local" value="menuMain.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Page Menu">
+		<param name="Local" value="menuPage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Add Page">
+		<param name="Local" value="menuPage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sort Items">
+		<param name="Local" value="menuPage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Item Menu">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Clipboard Launch">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Open Parent Folder">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Open Parent Folder as Menu">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lock This Button">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Insert Empty Button">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Empty Button Menu">
+		<param name="Local" value="menuEmpty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Delete Empty Button">
+		<param name="Local" value="menuEmpty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Page Design">
+		<param name="Local" value="dlgDesignClassic.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Design Pattern">
+		<param name="Local" value="dlgDesignModern.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Item Properties">
+		<param name="Local" value="dlgItemProp.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Clipboard Replacement Tag">
+		<param name="Local" value="dlgItemProp.htm#parameters">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Menu Options">
+		<param name="Local" value="dlgItemProp.htm#menuoptions">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Priority">
+		<param name="Local" value="dlgItemProp.htm#priority">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Privilege level">
+		<param name="Local" value="dlgItemProp.htm#privilege">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Shortcut Key">
+		<param name="Local" value="dlgItemProp.htm#shortcutkey">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hotkey">
+		<param name="Local" value="dlgItemProp.htm#hotkey">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mouse Launch>
+		<param name="Local" value="dlgItemProp.htm#mouselaunch"">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Chain Launch Items">
+		<param name="Local" value="dlgItemProp.htm#chainlaunch">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Change Icon">
+		<param name="Local" value="dlgItemProp.htm#changeicon">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Don't update icon">
+		<param name="Local" value="dlgItemProp.htm#dontupdateicon">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show shell menu on right-click">
+		<param name="Local" value="dlgItemProp.htm#showshellmenu">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Action if the program is already running">
+		<param name="Local" value="dlgItemProp.htm#alreadyrunning">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Release suspension when a cursor leaves from the edge">
+		<param name="Local" value="dlgItemProp.htm#suspend_ss">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Open parent folder even if the target is a folder">
+		<param name="Local" value="dlgItemProp.htm#fcm_clipboard">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Register Item">
+		<param name="Local" value="dlgAdd.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Existing Windows">
+		<param name="Local" value="dlgAdd.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Convert shortcut to linked destination">
+		<param name="Local" value="dlgAdd.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Special Folders">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Special Items">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Launch Screen Saver">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Suspend Screen Saver">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Powor Off Display">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Folder Contents Menu">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunch Options">
+		<param name="Local" value="dlgOption.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Click Functions">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hide CLaunch when the cursor leaves the window">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Emulate a delayed single click">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wait for the double/triple-click interval">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Cancel press-and-hold when the cursor is moved">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Use low-level mouse hook">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Press-and-hold delay">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Edge Functions">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Configure Range of Edge">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Only show CLaunch while a mouse button is pressed">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Delay before displaying CLaunch">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Delay before hiding CLaunch">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Delay before launching the items">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Delay before switching the pages automatically">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Circle Functions">
+		<param name="Local" value="optCircle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Number of revolutions">
+		<param name="Local" value="optCircle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Maximum radius">
+		<param name="Local" value="optCircle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Minimum radius">
+		<param name="Local" value="optCircle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Keyboard Operations">
+		<param name="Local" value="optKeyboard.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hotkey for displaying CLaunch">
+		<param name="Local" value="optKeyboard.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wait for timeout of consecutive key presses">
+		<param name="Local" value="optKeyboard.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mouse Operations">
+		<param name="Local" value="optMouse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Button Move Start Operation">
+		<param name="Local" value="optMouse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OLE Drag-and-drop Start Operation">
+		<param name="Local" value="optMouse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="File Manager">
+		<param name="Local" value="optFolder.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Number of Folder Contents Menu Items">
+		<param name="Local" value="optMenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Icon size of submenu">
+		<param name="Local" value="optMenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Font of submenu">
+		<param name="Local" value="optMenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Functions to disable while CLaunch is active">
+		<param name="Local" value="optDisable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Functions to disable in Restricted Mode">
+		<param name="Local" value="optDisable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Functions to disable while a full-screen app is active">
+		<param name="Local" value="optDisable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Settings to disable for specific applications">
+		<param name="Local" value="optDisable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Plugins">
+		<param name="Local" value="optPlugin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Plugin settings">
+		<param name="Local" value="optPlugin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Display Positions">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Always on top">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Standby Position">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tooltips">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show tray icon">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Caption">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Adjust text position">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Font">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Title bar height">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Frame width">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Window Frame Background Color">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Transparency">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Transparent only when inactive">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tab Size">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Fixed width">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Multi-line tab">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Multi-line text">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Left-aligned text">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Button Size">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Size of icons">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Icon position">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Adjust icon position">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show text">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Single-line text">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Page Name">
+		<param name="Local" value="optPages.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Auto-reset of scrolling state">
+		<param name="Local" value="optPages.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Copy these designs to all pages">
+		<param name="Local" value="optPages.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Save these designs as the default for new pages">
+		<param name="Local" value="optPages.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Automatic Backup">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Single user mode">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Switch pages when you mouseover the tabs">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Loop page switching">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Save Pinned status">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Save Restricted Mode status">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Include tooltip text in item search">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Close search window after an item is launched">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Switch to View Mode 1 after an item is launched">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Unpin after an item is launched by drag-and-drop">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Register items with a relative path">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show item properties after an item is registered">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Don't create a empty button when an item is deleted">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Update Recycle Bin icon periodically">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Free unused physical memory">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunch process priority">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Distribution / Contact">
+		<param name="Local" value="othrContact.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Version History">
+		<param name="Local" value="othrContact.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Copyright and Disclaimer">
+		<param name="Local" value="othrCopyright.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

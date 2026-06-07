@@ -1,0 +1,372 @@
+﻿<html>
+<head>
+<title>Item Properties dialog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Item Properties dialog</div>
+<div class="p1">
+Displayed when you select <b>Properties</b> from the <a href="menuItem.htm"><b>Item Menu</b></a>, or when you right-click an item while holding down the Alt key.
+</div>
+
+<div id="itemname">
+	<div class="h2"><img src="images/Dot.png">Name</div>
+	<div class="p2">The text displayed on the button or menu item.</div>
+</div>
+
+<div id="target">
+	<div class="h2"><img src="images/Dot.png">Target</div>
+	<div class="p2">
+	The target file name of the registered item.<br>
+	Enter the path of a file or folder, or a URL.<br>
+	You can use relative paths from the CLaunch installation folder and environment variables.</div>
+</div>
+
+<div id="parameters">
+	<div class="h2"><img src="images/Dot.png">Parameters</div>
+	<div class="p2">
+	Specifies command line parameters when launching a program.
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	If you set <b>&lt;clipboard&gt;</b> (clipboard replacement tag) in the parameters of program, document, or URL items, that part will be replaced with the string in the clipboard and passed to the command line of the program to be launched.<br>
+	For example, if you create an item with the URL "https://www.google.co.jp" and the parameters "/search?q=&lt;clipboard&gt;", then launch it while some text is copied to the clipboard, you can search Google using the clipboard text as a keyword.</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	The parameters for folder items are meaningful only when the <a href="optFolder.htm"><b>Use an alternative file manager</b></a> setting in the <b>Folders</b> tab of the Options dialog is enabled, and the parameter string is passed to the file manager's command line.<br>
+	For special folders, specify strings such as "shell:Desktop" (Desktop) or "::{450D8FBA-AD25-11D0-98A8-0800361B1103}" (My Documents). However, the file manager you use must support these strings that represent virtual folders.</div>
+	</div>
+</div>
+
+<div id="workdir">
+	<div class="h2"><img src="images/Dot.png">Start in (except submenus and folders)</div>
+	<div class="p2">
+	Specifies the current directory when launching a program.<br>
+	You can use relative paths from the CLaunch installation folder and environment variables.
+	</div>
+</div>
+
+<div id="menuoptions">
+	<div class="h2"><img src="images/Dot.png">Menu Options (submenus and folders only)</div>
+	<div class="p2">
+	Specifies an option string that controls the display behavior of submenus, the Folder Contents Menu, and menu-type <a href="extSpecialItem.htm">special items</a>.<br>
+	<img src="images/Go.png"> <a href="extMenuOptions.htm">Menu Options</a>
+	</div>
+</div>
+
+<div id="run">
+	<div class="h2"><img src="images/Dot.png">Run</div>
+	<div class="p2">Specifies the window state when launching a program.</div>
+</div>
+
+<div id="priority">
+	<div class="h2"><img src="images/Dot.png">Priority</div>
+	<div class="p2">
+	Specifies the priority when launching a program.<br>
+	This setting is available only for program or document items.<br>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	If you have problems launching a program, set it to <b>Normal</b>.</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	If you overuse <b>Realtime</b> or <b>High</b>, the overall system performance will degrade.</div>
+	</div>
+</div>
+
+<div id="privilege">
+	<div class="h2"><img src="images/Dot.png">Privilege Level (Windows Vista or later)</div>
+	<div class="p2">
+	Specifies the privilege level (the permission level of an application in a UAC environment) when launching a program.<br>
+	By default, the launched application's privilege level inherits CLaunch's privilege level.<br>
+	Therefore, the meaning of this setting changes as follows depending on the privilege level used to start CLaunch.
+	</div>
+
+	<div class="p2">
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	When CLaunch is running as a standard user<br>
+	The default becomes <b>Run as Standard User</b>, and program items can select <b>Run as Administrator</b>.</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	When CLaunch is running as administrator<br>
+	The default becomes <b>Run as Administrator</b>, and program and document items can select <b>Run as Standard User</b>.</div>
+	</div>
+</div>
+
+<div id="tooltip">
+	<div class="h2"><img src="images/Dot.png">Tooltip</div>
+	<div class="p2">Specifies the text displayed when the cursor stays over the button or menu item.</div>
+</div>
+
+<div id="shortcutkey">
+	<div class="h2"><img src="images/Dot.png">Shortcut Key</div>
+	<div class="p2">
+	Sets the keyboard operation to launch an item when the page or submenu that contains the item is displayed.<br>
+	After typing the key you want to assign, use the spin button on the right to set how many consecutive presses are required for it to be accepted as the shortcut key.
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	Keys assigned to <a href="useKeyboard.htm">basic operations</a> cannot be specified.</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	Shortcut keys work even for items that become hidden outside the visible area when you reduce the CLaunch window size.</div>
+	</div>
+</div>
+
+<div id="hotkey">
+	<div class="h2"><img src="images/Dot.png">Hotkey</div>
+	<div class="p2">
+	Sets the keyboard operation to launch an item when the CLaunch window is not displayed.<br>
+	After typing the key you want to assign, use the spin button on the right to set how many consecutive presses are required for it to be accepted as the hotkey.
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	Keys assigned to <a href="optKeyboard.htm"><b>Hotkey for displaying CLaunch</b></a> cannot be specified.</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	If you register a key that is already assigned as a hotkey for another item, the previously registered hotkey will be cleared.</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	Avoid using a single alphanumeric key as a hotkey; use a combination with [Ctrl], [Alt], or the [Windows] key. (The program will accept registration even for a single character key unconditionally.)</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	Hotkeys may conflict with other applications or resident software, so not all combinations can be used.</div>
+	</div>
+</div>
+
+<div id="mouselaunch">
+	<div class="h2"><img src="images/Dot.png">Mouse Launch</div>
+	<div class="p2">
+	Sets mouse operations to launch an item when the CLaunch window is not displayed.<br>
+	Clicking the <b>Assign</b> button displays the <a href="dlgMouseDirect.htm"><b>Direct Mouse Launch</b></a> dialog.
+	</div>
+</div>
+
+<br><hr>
+
+<div id="chainlaunch">
+	<div class="h2"><img src="images/Dot.png">Chain Launch Items</div>
+	<div class="p2">
+	Sets the <a href="extChainLaunch.htm">items to launch together</a> when you launch this item.<br>
+	Clicking it displays the <b>Auto-start Items</b> dialog.
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	In the <b>Auto-start Items</b> dialog, click the <b>Add</b> button to show page names in a drop-down list, then select the page or submenu that contains the item you want.<br>
+	Double-click a cell in the <b>Item</b> column of the added row to show items in the selected page in a drop-down list, then select the item you want.</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	Double-click a cell in the <b>Delay</b> column of a row that has a launch item to set the wait time before additional items are launched after the first item starts.<br>
+	If you set a negative value, the additional item will be launched before the main item.</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	You can reorder the list with the <b>Up</b> and <b>Down</b> buttons, but items are not guaranteed to be launched in the displayed order.</div>
+	</div>
+</div>
+
+<div id="changeicon">
+	<div class="h2"><img src="images/Dot.png">Change Icon</div>
+	<div class="p2">
+	Specifies the icon and overlay icon displayed on the button or menu item.<br>
+	Clicking it displays the <b>Icon Settings</b> dialog.
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	You can specify any .exe, .dll, .ico, or .icl file as an icon file.
+	</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	The icon displayed in the preview of <b>Menus</b> is shared by submenus and the search result list in the search window, and by default a 16 x 16 pixel icon is displayed.<br>
+	If the <a href="optDesign2.htm"><b>Separate designs per View Mode</b></a> setting in the <b>Design 2</b> tab of the Options dialog is enabled, icon images obtained for View Mode 2 are used.
+	</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	If you check <b>Show Overlay Icon</b> and specify an icon file, an additional icon will be displayed over the main icon.<br>
+	<img src="images/Go.png"> <a href="extOverlayIcons.htm">Overlay Icons</a>
+	</div>
+	</div>
+</div>
+
+<div id="dontupdateicon">
+	<div class="h2"><img src="images/Dot.png">Don't update icon</div>
+	<div class="p2">
+	When you click OK, it does not retrieve the icon data again and uses the cached icon images. Also, it is excluded from being updated when you run <a href="extIconRefresh.htm">Updating Icon Images</a>.
+	</div>
+</div>
+
+<div id="showshellmenu">
+	<div class="h2"><img src="images/Dot.png">Show Shell menu on right-click</div>
+	<div class="p2">
+	When you right-click an item, the Shell context menu will be displayed instead of the CLaunch item menu.<br>
+	If you enable this setting, right-click while holding down the Shift key to show the item menu.
+	</div>
+</div>
+
+<br><hr>
+
+<div id="alreadyrunning">
+	<div class="h2"><img src="images/Dot.png">Action when the program is already running (program or document)</div>
+	<div class="p2">
+	Selects the behavior when you try to launch a program again after it has already been launched.<br>
+	The actual behavior depends on the program, so it may not work as expected.<br>
+	If you have problems launching the program, set it to <b>Default</b>.
+	</div>
+
+	<div class="p1">
+	<ul class="selection">
+	<li><b>Default</b><br>
+	Launches the same program again.
+
+	<li><b>Activate</b><br>
+	Activates the window of the running program.
+
+	<li><b>Close</b><br>
+	Closes the window of the running program.
+
+	<li><b>Do Nothing</b><br>
+	Does nothing.<br>
+	By specifying <b>Filtering conditions for target windows</b> in the advanced options, you can configure it to launch the program only when no window that matches the specified conditions exists.
+	</ul>
+	</div>
+
+	<div class="p2">
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	Clicking the <b>Advanced Options</b> button displays the <a href="dlgMultiplex.htm"><b>Advanced Options for Already Running Program</b></a> dialog.
+	</div>
+	</div>
+</div>
+
+<div id="autounhook">
+	<div class="h2"><img src="images/Dot.png">Auto-unhook Settings (program or document)</div>
+	<div class="p2">
+	Displays the <a href="dlgUnhook.htm"><b>Auto-unhook Settings</b></a> dialog and configures settings to automatically perform <a href="extSuspend.htm">Unhook</a> and resume according to the start and exit of the program.
+	</div>
+</div>
+
+<br><hr>
+
+<div id="folderopen">
+	<div class="h2"><img src="images/Dot.png">Methods to open folders (folder item)</div>
+	<div class="p2">Selects how to open the folder.</div>
+
+	<div class="p1">
+	<ul class="selection">
+	<li><b>Open</b><br>
+	Opens the folder in the system default folder window.
+
+	<li><b>Open in Explorer</b><br>
+	Opens the folder in Explorer with the navigation pane visible.
+
+	<li><b>Open as Menu</b><br>
+	Opens the folder contents as a <a href="extFolderMenu.htm">Folder Contents Menu</a>.
+	</ul>
+	</div>
+</div>
+
+<div id="autoopenmenu">
+	<div class="h2"><img src="images/Dot.png">Auto-open menu on mouseover (submenu or folder item)</div>
+	<div class="p2">
+	Automatically opens the menu just by moving the cursor over a submenu button, or a folder button whose method is set to <b>Open as Menu</b>.<br>
+	An auto-opened menu closes automatically when you move the cursor over another button.<br>
+	The wait time before auto-opening starts can be changed in <a href="optMenu.htm"><b>Menus</b></a> of the Options dialog.
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>Display Position</b><br>
+	You can select where the menu will appear when it is auto-opened.</div>
+	</div>
+</div>
+
+<br><hr>
+
+<div id="recentitems">
+	<div class="h2"><img src="images/Dot.png">Additional Options (special item: Recent Items)</div>
+	<div class="p2">
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>Launch last used item</b><br>
+	When you click the item, it launches the last launched item directly without showing the history menu.<br>
+	The icon and tooltip of this item will reflect the last launched item.</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>Show history menu on right-click</b><br>
+	When you right-click the item with the above option enabled, the history menu will be displayed instead of the item menu.<br>
+	To display the item menu with this option enabled, right-click while holding down the Shift key.</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>History Management</b><br>
+	Displays the <a href="dlgHistory.htm"><b>History Management</b></a> dialog to configure history recording behavior.</div>
+
+	</div>
+</div>
+
+<br><hr>
+
+<div id="lastmenu">
+	<div class="h2"><img src="images/Dot.png">Target Menu (special item: Last Displayed Menu)</div>
+	<div class="p2">Selects the type of menu to redisplay.</div>
+
+	<div class="p1">
+	<ul class="selection">
+
+	<li><b>Submenus</b><br>
+	Redisplays the last displayed submenu.<br>
+	Folders opened as menus are not included.</li>
+
+	<li><b>Folder Contents</b><br>
+	Opens the last folder that was opened as a menu again.<br>
+	Submenus are not included.</li>
+
+	<li><b>Both</b><br>
+	Redisplays the last displayed menu, whether it is a submenu or a Folder Contents Menu.</li>
+
+	</ul>
+	</div>
+</div>
+
+<hr>
+
+<div id="fcm_clipboard">
+	<div class="h2"><img src="images/Dot.png">Additional Options (special item: Clipboard Folder Menu)</div>
+	<div class="p2">
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>Open parent folder even if the target is a folder</b><br>
+	If a folder path is copied to the clipboard, normally that folder is opened as a menu. If you enable this option, the parent folder (one level up) will be opened instead.<br>
+	If a file path is copied, the behavior does not change.</div>
+	</div>
+</div>
+
+<br><hr>
+
+<div id="suspend_ss">
+	<div class="h2"><img src="images/Dot.png">Additional Options (special item: Suspend Screen Saver)</div>
+	<div class="p2">
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>Resume when the cursor leaves the edge</b><br>
+	An option for assigning the suspend screen saver function to <a href="optEdge.htm"><b>Edge Functions</b></a>.<br>
+	After you move the cursor to the screen edge to suspend the screen saver, the suspension will be released when the cursor leaves the edge.</div>
+	</div>
+</div>
+
+<br><hr>
+
+<div id="powctrl">
+	<div class="h2"><img src="images/Dot.png">Additional Options (power control items)</div>
+	<div class="p2">
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>Ask for Confirmation</b><br>
+	Displays a confirmation message before starting shutdown processing.</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>Force Shutdown</b><br>
+	Performs shutdown without waiting for running applications to respond.<br>
+	Because it does not wait for applications to respond, problems such as loss of unsaved data may occur. Use at your own risk.</div>
+
+	</div>
+</div>
+
+<br><hr>
+
+<div id="plugin">
+	<div class="h2"><img src="images/Dot.png">Plugin Item Options (plugin item)</div>
+	<div class="p2">
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>Item Properties</b><br>
+	Displays a dialog to configure settings for the plugin item.</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>Plugin Options</b><br>
+	Displays a dialog to configure general settings for the plugin.</div>
+
+	</div>
+</div>
+
+</body>
+</html>

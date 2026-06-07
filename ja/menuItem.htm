@@ -1,0 +1,130 @@
+﻿<html>
+<head>
+<title>アイテムメニュー</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">アイテムメニュー</div>
+<div class="p1">アイテムを登録したボタン、またはサブメニュー内のアイテムを右クリックすると表示されます。<br></div>
+
+<div class="h2"><img src="images/Dot.png">プログラム、ドキュメントアイテム固有のメニュー項目</div>
+<div class="p2">
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>管理者として実行</b><br>
+対象プログラムを管理者権限で起動します。<br>
+このメニュー項目は、CLaunchが標準ユーザー権限で実行されている場合、またはアイテムのプロパティの「<a href="dlgItemProp.htm#privilege">特権レベル</a>」で「標準ユーザーとして実行」が選択されている場合に表示されます。<br>
+(UACを無効設定にした環境、およびWindows XP以前のOSでは表示されません)
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>標準ユーザーとして実行</b><br>
+対象プログラムを標準ユーザー権限で起動します。<br>
+このメニュー項目は、CLaunchが管理者権限で実行されている場合、またはアイテムのプロパティの「特権レベル」で「管理者として実行」が選択されている場合に表示されます。<br>
+(UACを無効設定にした環境、およびWindows XP以前のOSでは表示されません)
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>クリップボード起動</b><br>
+対象プログラムを、クリップボードにコピーされているファイルのパス名をパラメータにしてオープンします。<br>
+ドキュメントアイテムの場合は、関連付けられているプログラムでオープンします。
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">フォルダー固有のメニュー項目</div>
+<div class="p2">
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>開く</b><br>
+対象フォルダーを、システムデフォルトのフォルダーウィンドウでオープンします。
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>エクスプローラー</b><br>
+対象フォルダーを、ナビゲーションペインが表示された状態のエクスプローラーでオープンします。
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>メニュー展開</b><br>
+対象フォルダーの内容を<a href="extFolderMenu.htm">メニュー展開表示</a>します。
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">サブメニュー固有のメニュー項目</div>
+<div class="p2">
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>アイテム登録</b><br>
+対象サブメニューにアイテムを新規登録します。<br>
+「<a href="dlgAdd.htm">アイテムの登録</a>」ダイアログBOXが表示されます。
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>子メニューを作成</b><br>
+対象サブメニューに子メニューを追加します。
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>アイテムの並べ替え</b><br>
+対象サブメニュー内の登録アイテムを名前順に並べ替えます。
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>サブメニュー内の全アイテムを起動</b><br>
+対象サブメニュー内にある全ての登録アイテムを一括起動します。<br>
+<a href="extSpecialItem.htm">追加機能系の特殊アイテム</a>と、子メニュー内のアイテムは一括起動の対象に含まれません。<br>
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">親フォルダーを開く</div>
+<div class="p2">対象ファイルを含むフォルダーをオープンします。</div>
+
+<div class="h2"><img src="images/Dot.png">親フォルダーをメニュー展開</div>
+<div class="p2">対象ファイルを含むフォルダーを<a href="extFolderMenu.htm">メニュー展開表示</a>します。<br>
+このメニューには隠し属性のファイルも表示されます。</div>
+
+<div class="h2"><img src="images/Dot.png">シェルのメニューを表示</div>
+<div class="p2">対象ファイルに対するシェルのコンテキストメニューを表示します。</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">このボタンをロック</div>
+<div class="p2">ボタンを<a href="extButtonLock.htm">ロック</a>します。</div>
+
+<div class="h2"><img src="images/Dot.png">空白挿入</div>
+<div class="p2">対象位置以降のボタンを後ろへずらして、空白ボタンを挿入します。<br>
+オプション「デザイン2」の「<a href="optDesign2.htm">アイテムの登録方向</a>」の設定が「横方向」の場合、挿入位置以降のボタンは右へシフトし、「縦方向」の場合は下へシフトします。</div>
+
+<div class="h2"><img src="images/Dot.png">削除</div>
+<div class="p2">対象アイテムの登録情報を削除します。</div>
+
+<div class="h2"><img src="images/Dot.png">行/列操作</div>
+<div class="p2">空白行の挿入、または空白列の挿入を行います。<br>
+「空行挿入」を選択すると、対象ボタンを含む行以降が下へシフトし、空白行が作成されます。<br>
+「空列挿入」を選択すると、対象ボタンを含む列以降が右へシフトし、空白列が作成されます。</div>
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">履歴から除外する (履歴メニュー固有の項目)</div>
+<div class="p2">指定したアイテムを使用履歴から除外し、以降は同アイテムを起動しても履歴に記録されなくなります。<br>
+除外されたアイテムは「履歴の管理」ダイアログBOX内の「<a href="dlgHistory.htm">個別指定で履歴から除外するアイテム</a>」リストへ登録されます。<br></div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">プロパティ</div>
+<div class="p2">対象アイテムの設定を変更するための「<a href="dlgItemProp.htm">アイテムのプロパティ</a>」ダイアログBOXを表示します。<br></div>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿<html>
+<head>
+<title>設定データのバックアップ</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">設定データのバックアップ</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">全設定のバックアップ</div>
+
+<div class="p2">
+アイテムの登録情報、オプション設定、およびデザイン設定をまとめてバックアップできます。<br>
+万一のトラブルに備えて、定期的に設定データをバックアップすることをお勧めします。<br>
+また、別のパソコンに環境を移行する場合にも利用できます。
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+設定をバックアップするには、「<a href="menuMain.htm">メインメニュー</a>」から「メンテナンス」 → 「設定バックアップ」を選択し、バックアップファイルの保存先を指定してください。<br>
+出力されるのは1つのINIファイルですが、その中にデザインの設定を含めた全ての設定データが保存されています。
+</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+設定データのバックアップは定期的に自動実行することもできます。自動バックアップはオプションの「<a href="optOther.htm">その他</a>」で設定できます。
+</div>
+</div>
+
+<div class="h2"><img src="images/Dot.png">デザイン設定のバックアップ</div>
+
+<div class="p2">
+デザインの設定のみを分離してバックアップできます。<br>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+デザイン設定をバックアップするには、「<a href="menuMain.htm">メインメニュー</a>」から「メンテナンス」 → 「デザインバックアップ」を選択し、バックアップファイルの保存先を指定してください。
+</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+デザインをバックアップした後でページを追加し、その後バックアップからデザインの設定を復元すると、追加したページのデザインは初期設定に戻されます。
+</div>
+</div>
+
+<div class="h2"><img src="images/Dot.png">バックアップからの復元</div>
+
+<div class="p2">
+以下の手順で、バックアップファイルから設定を復元することができます。<br>
+</div>
+
+<div class="gap2">
+<div class="p1">
+<ol>
+<li>バックアップファイルのファイル名が「CLaunch.ini」以外になっている場合は、「CLaunch.ini」にリネームする。<br>
+(デザイン設定のバックアップファイルは「Design.ini」にリネームする)</li>
+<li><span class="bracket">「</span><a href="menuMain.htm">メインメニュー</a>」から「メンテナンス」 → 「データフォルダーを開く」を選択し、設定データの保存先フォルダーを開く。</li>
+<li><span class="bracket">「</span><a href="menuMain.htm">メインメニュー</a>」から「終了」を選択し、CLaunchの常駐を解除する。</li>
+<li>バックアップファイルをデータフォルダーへ上書きコピーする。</li>
+<li>CLaunchを起動する。</li>
+</ol>
+</div>
+</div>
+
+</body>
+</html>

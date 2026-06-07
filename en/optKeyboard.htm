@@ -1,0 +1,82 @@
+﻿<html>
+<head>
+<title>Keyboard (Options dialog)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Keyboard (Options dialog)</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">Keyboard Operations</div>
+
+<div class="p2">
+Allows you to change the key assignments for <a href="useKeyboard.htm">basic operation shortcut keys</a>.<br>
+Select a classification from the <b>Categories</b> list, choose the function you want to modify from the <b>Commands</b> list, and then enter the desired key in <b>Assigned Key</b>.
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Start searching by typing a character key in the main window</b><br>
+Even when the search window is not displayed, typing a character key while the CLaunch window is active will display the search window and start incremental search immediately.  
+However, if a single character key is assigned to a <a href="useKeyboard.htm">basic operation</a> or an <a href="dlgItemProp.htm#shortcutkey">item-specific shortcut key</a>, that assignment takes priority.  
+Also, repeated input of the same character key cannot be used as a shortcut key.<br>
+When this option is enabled, the search window closes automatically when all search text is deleted.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Select the first button in the next row when looping</b><br>
+When the rightmost button in a row is selected and you press the right arrow key, the selection normally loops to the leftmost button in the same row.  
+If this option is enabled, the leftmost button in the next row will be selected instead.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Opposite-side button selection without scrolling</b><br>
+If registered buttons exceed the visible window area, pressing the down arrow key while the bottom button is selected normally scrolls the window to reveal hidden items.  
+If this option is enabled, the selection loops to the first row without scrolling. (Scrolling with Ctrl + arrow keys is still available.)
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Assign shortcut key automatically when item is registered</b><br>
+When registering a file with an alphanumeric name, the first character of the file name is automatically assigned as the <a href="dlgItemProp.htm#shortcutkey">item shortcut key</a>.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Wait for timeout of consecutive key presses</b><br>
+Allows different items to be assigned to the same key combination based on the number of consecutive presses.<br>
+For example, if pressing Ctrl twice launches item A and pressing Ctrl three times launches item B:<br>
+If this option is disabled, pressing Ctrl three times will launch both item A and item B.<br>
+If this option is enabled, pressing Ctrl three times launches only item B. Pressing Ctrl twice launches item A after the specified timeout has elapsed.
+</div>
+
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">Hotkey for displaying CLaunch</div>
+
+<div class="p2">
+Specifies the keyboard operation used to display the CLaunch window.<br>
+After entering the desired key, use the spin button on the right to specify how many consecutive presses are required for the key to be recognized as a hotkey.
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Initial Page</b><br>
+Click <b>Change</b> to open the <b>Initial Page</b> dialog, then select the page you want to display first.  
+If you select <b>Last Displayed Page</b>, the page that was visible before CLaunch was hidden will be displayed.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Hide CLaunch when the cursor leaves the window</b><br>
+After CLaunch is shown by a click function, it will automatically be hidden when the cursor leaves the window.
+</div>
+
+</div>
+
+</body>
+</html>

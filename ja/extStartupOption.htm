@@ -1,0 +1,79 @@
+﻿<html>
+<head>
+<title>起動時オプション</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">起動時オプション</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">コマンドラインパラメータ</div>
+
+<div class="p2">
+CLaunchの起動時には、以下のコマンドラインパラメータを指定することができます。<br>
+
+<div class="gap1"><br></div>
+
+<table class="opttbl">
+<tr class="wide">
+<td class="optsw1">/n</td><td class="sep">：</td>
+<td>非常駐モードで起動します。<br>
+起動時にCLaunchを表示し、非表示操作を行った時点で終了します。<br>
+デフォルトでは前回CLaunchが終了した時に表示されていた位置へ初期表示されますが、/m または /s を組み合わせることで、表示位置を指定することもできます。</td>
+</tr>
+<tr class="wide">
+<td class="optsw1">/nh</td><td class="sep">：</td>
+<td><a href="extSuspend.htm">フック解除状態</a>で起動します。</td>
+</tr>
+<tr class="wide">
+<td class="optsw1">/l</td><td class="sep">：</td>
+<td>ウィンドウロック状態でCLaunchを表示します。<br>
+デフォルトでは前回CLaunchが終了した時に表示されていた位置へ初期表示されますが、/m または /s を組み合わせることで、表示位置を指定することもできます。</td>
+</tr>
+<tr class="wide">
+<td class="optsw1">/m</td><td class="sep">：</td>
+<td>カーソルの位置へCLaunchを表示します。</td>
+</tr>
+<tr class="wide">
+<td class="optsw1">/s</td><td class="sep">：</td>
+<td>指定された座標へCLaunchを表示します。<br>
+<span class="fmtlabel">【書式】 </span>/s[X座標]:[Y座標] &emsp; 【例】/s200:100</td>
+</tr>
+<tr class="wide">
+<td class="optsw1">/p</td><td class="sep">：</td>
+<td>初期表示ページを指定します。<br>
+<span class="fmtlabel">【書式】 </span>/p[ページ番号] &emsp; 【例】/p2</td>
+</tr>
+<tr class="wide">
+<td class="optsw1">/b</td><td class="sep">：</td>
+<td>初期ボタン数を指定します。<br>
+<span class="fmtlabel">【書式】 </span>/b[横]:[縦] &emsp; 【例】/b5:3</td>
+</tr>
+<tr class="wide">
+<td class="optsw1">/d</td><td class="sep">：</td>
+<td>指定された時間(ms)だけCLaunchの起動を遅らせます。<br>
+<span class="fmtlabel">【書式】 </span>/d[ウェイト時間] &emsp; 【例】/d3000 (3秒ウェイト)</td>
+</tr>
+<tr class="wide">
+<td class="optsw1">/a</td><td class="sep">：</td>
+<td>自動非表示化機能を有効にします。<br>
+/n、/l、/m、/s によって初期表示された後、カーソルがウィンドウ外へ出たら自動的に非表示化されます。</td>
+</tr>
+<tr class="wide">
+<td class="optsw1">/r</td><td class="sep">：</td>
+<td>キャッシュデータを破棄してアイコンイメージを再取得します。</td>
+</tr>
+</table>
+</div>
+
+<div class="h2"><img src="images/Dot.png">CLaunchの多重起動</div>
+
+<div class="p2">
+CLaunchが既に常駐している状態でCLaunch.exeを多重起動すると、CLaunchのウィンドウが表示されます。 (制限モード中やフック解除中でも強制的に表示されます。)<br>
+後から起動するCLaunch.exeのコマンドラインオプションには <b>/l、/m、/s、/p、/a</b> が指定できます。<br>
+</div>
+
+</body>
+</html>

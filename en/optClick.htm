@@ -1,0 +1,92 @@
+﻿<html>
+<head>
+<title>Clicks (Options dialog)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Clicks (Options dialog)</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">Click Functions</div>
+
+<div class="p2">
+Allows you to show CLaunch or launch registered items when click-based operations are performed.
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+Click the <b>Single</b>, <b>Double</b>, <b>Triple</b>, <b>Wheel</b>, or <b>Press &amp; Hold</b> buttons at the top to display the list of corresponding click operations.</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+Click the [+] next to an operation name to expand its effective areas.  
+Select the checkbox next to an area to allow CLaunch to be shown by that operation.<br>
+If you want CLaunch to be shown regardless of location, check <b>Anywhere</b>.</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+When you click a checkbox, the <b>Initial Page</b> dialog appears. Select the page you want to display first.<br>
+If you choose <b>Last Displayed Page</b>, the page that was visible before CLaunch was hidden will be displayed.</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+To change the initial page, uncheck the option once and then check it again to reopen the <b>Initial Page</b> dialog.</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+If the desired operation is already assigned to launching an item, uncheck it once to remove the current assignment, then check it again.</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+Mouse direct launch for individual items can be configured from <a href="dlgItemProp.htm#mouselaunch"><b>Mouse Launch</b></a> in the Item Properties dialog.</div>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Hide CLaunch when the cursor leaves the window</div>
+<div class="p2">
+After CLaunch is shown by a click function, it will automatically be hidden when the cursor leaves the window.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Emulate a delayed single click</div>
+<div class="p2">
+Changes the behavior when a function is assigned to the double-click or triple-click of the wheel button, X1 button, or X2 button, and nothing is assigned to single click.<br>
+When enabled, a single click does not immediately trigger the system’s default action. Instead, the single-click action occurs only after the Windows double-click time (500 ms by default) has elapsed without a second click. (The double-click time can be changed in Mouse Properties in Control Panel.)<br>
+
+For example, if showing CLaunch is assigned to the double-click of X1 button:<br>
+If this option is disabled, double-clicking X1 button in a browser will execute “Back” on the first click and then show CLaunch on the second click.<br>
+If this option is enabled, clicking once and then clicking again within 500 ms will show CLaunch. If no second click occurs within 500 ms, the browser’s “Back” action will be executed.<br>
+
+Because this option significantly affects usability, it does not apply to the left and right mouse buttons.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Wait for the double/triple-click interval</div>
+<div class="p2">
+Allows different functions to be assigned to single, double, and triple clicks of the same mouse button.<br>
+If disabled and you perform a double-click, the single-click assignment is triggered on the first click, and the double-click assignment is triggered on the second click.<br>
+If enabled, after the first click, CLaunch waits up to 500 ms (the double-click time). If a second click occurs within that time, the double-click assignment is executed. If no second click occurs, the single-click assignment is executed.<br>
+The same behavior applies to triple-clicks.<br>
+This option applies to all mouse buttons.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Cancel press-and-hold when the cursor is moved</div>
+<div class="p2">
+If the cursor moves after pressing a mouse button, press-and-hold detection is suspended until the button is released and pressed again, preventing unintended activation.<br>
+If you want to show CLaunch by press-and-hold in order to drag and drop files, uncheck this option.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Use low-level mouse hook</div>
+<div class="p2">
+Enable this option if performance degradation occurs in games.<br>
+It may also resolve issues where click functions or <a href="optCircle.htm">Circle functions</a> do not work on specific windows.<br>
+</div>
+
+<div class="p2">
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+If launched from <a href="extClAdmin.htm">ClAdmin</a>, this option is forcibly enabled.</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+On operating systems earlier than Windows 2000, this option is disabled.</div>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Press-and-hold delay</div>
+<div class="p2">
+Specifies the waiting time between pressing a mouse button and executing the function assigned to a press-and-hold operation.
+</div>
+
+</body>
+</html>

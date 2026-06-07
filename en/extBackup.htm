@@ -1,0 +1,70 @@
+﻿<html>
+<head>
+<title>Backing Up Settings</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Backing Up Settings</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">Backing Up All Settings</div>
+<div class="p2">
+You can back up item registration data, option settings, and design settings all at once.<br>
+It is recommended to back up your settings regularly to prepare for unexpected issues.<br>
+This is also useful when migrating your environment to another computer.<br>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+To back up settings, select
+<b>Maintenance</b> &gt; <b>Backup Settings</b>
+from the <a href="menuMain.htm"><b>Main Menu</b></a>,
+then specify the destination for the backup file.<br>
+Although a single INI file is created, it contains all settings data,
+including design settings.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+Settings backups can also be performed automatically on a regular basis.
+Automatic backup can be configured in the
+<a href="optOther.htm"><b>Other</b></a> tab of the Options dialog.
+</div>
+</div>
+
+
+<div class="h2"><img src="images/Dot.png">Backing Up Design Settings</div>
+<div class="p2">
+You can back up only the design settings separately.<br>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+To back up design settings, select
+<b>Maintenance</b> &gt; <b>Backup Design</b>
+from the <a href="menuMain.htm"><b>Main Menu</b></a>,
+then specify the destination for the backup file.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+If you add pages after backing up design settings and then restore the design from the backup,
+the design of the newly added pages will be reset to the default settings.
+</div>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Restoring from a Backup</div>
+<div class="p2">
+You can restore settings from a backup file using the following procedure.
+</div>
+
+<div class="gap2">
+<div class="p1">
+<ol>
+<li>If the backup file name is not <b>CLaunch.ini</b>, rename it to <b>CLaunch.ini</b>. (For a design settings backup, rename the file to <b>Design.ini</b>.)</li>
+<li>From the <a href="menuMain.htm"><b>Main Menu</b></a>, select <b>Maintenance</b> &gt; <b>Open Data Folder</b> to open the folder where settings data is stored.</li>
+<li>From the <a href="menuMain.htm"><b>Main Menu</b></a>, select <b>Exit</b> to terminate CLaunch.</li>
+<li>Overwrite the existing file in the data folder with the backup file.</li>
+<li>Start CLaunch.</li>
+</ol>
+</div>
+</div>
+
+</body>
+</html>

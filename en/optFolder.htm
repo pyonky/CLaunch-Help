@@ -1,0 +1,82 @@
+﻿<html>
+<head>
+<title>Folders (Options dialog)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Folders (Options dialog)</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">Default settings when registering folders</div>
+
+<div class="p2">
+Select the default folder open method that will be applied when you register a folder.<br>
+You can also change the folder open method after registration from the <a href="dlgItemProp.htm#folderopen"><b>Item Properties</b></a> dialog.
+</div>
+
+<div class="p1">
+<ul class="selection">
+<li><b>Open</b><br>
+Opens the folder in the system default folder window.
+
+<li><b>Open in Explorer</b><br>
+Opens the folder in Explorer with the navigation pane visible.
+
+<li><b>Open as Menu</b><br>
+Opens the folder contents as a <a href="extFolderMenu.htm">Folder Contents Menu</a>.
+</ul>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">When files are dropped onto a folder button</div>
+<div class="p2">
+Select the action performed when you drag and drop files onto a folder item.
+</div>
+
+<div class="p2">
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+If <b>Copy</b> is selected, dragging and dropping with the mouse alone copies files, and dragging and dropping while holding the <b>Shift</b> key moves files.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+If <b>Move</b> is selected, dragging and dropping with the mouse alone moves files, and dragging and dropping while holding the <b>Ctrl</b> key copies files.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+If <b>System Default</b> is selected, files are moved when the source and destination are on the same drive, and copied when they are on different drives.  
+In either case, holding <b>Shift</b> forces move, and holding <b>Ctrl</b> forces copy.
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">File manager</div>
+<div class="p2">
+Specifies an alternative file manager to launch instead of Explorer when opening folders.<br>
+Enable <b>Use an alternative file manager</b>, and enter the path to the program.
+</div>
+
+<div class="p2">
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Parameters</b><br>
+Specify common parameters to pass to the file manager via its command line.<br>
+Parameters are concatenated as follows:
+</div>
+</div>
+
+<div class="gap1"><br></div>
+
+<ul class="p2list-ul">
+<li><b>For normal folders</b><br>
+[Item-specific parameters]&ensp;[Common parameters]&ensp;[Folder path]
+<li style="margin-top: 10"><b>For special folders</b><br>
+[Item-specific parameters]&ensp;[Common parameters]
+</ul>
+
+</body>
+</html>

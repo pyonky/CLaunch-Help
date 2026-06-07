@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\..\..\x64\Release\Docs\CLaunch_ja.chm
+Contents file=CLaunch.hhc
+Default Window=CLaunch
+Default topic=fstOverview.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=CLaunch.hhk
+Language=0x411 “ú–{Œê (“ú–{)
+
+[WINDOWS]
+CLaunch="CLaunch ‚Ìƒwƒ‹ƒv","CLaunch.hhc","CLaunch.hhk","fstOverview.htm",,,,,,0x2520,,0x300e,,,,,,,,0
+
+
+[INFOTYPES]
+

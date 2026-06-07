@@ -1,0 +1,52 @@
+﻿<html>
+<head>
+<title>Settings to disable for specific applications dialog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Settings to disable for specific applications dialog</div>
+
+<div class="p1">
+This dialog appears when you click the <b>Configure</b> button for <a href="optDisable.htm"><b>Settings to disable for specific applications</b></a> in the <b>Disabling</b> tab of the Options dialog.<br>
+You can configure selected functions to be disabled while the specified application is activated.
+
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+When a blank row in the upper list is selected, entering a condition in <b>Window Title</b>, <b>Window Class</b>, or <b>File Name</b> will automatically register it as a target to disable.<br>
+Use the check boxes in the lower area to select the functions you want to disable while the target is activated.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+Click the <b>Existing Windows</b> button to show a list of running applications. Select the target application and click OK to retrieve its information.<br>
+If you cannot find the target application in the list, click the <b>Window Finder</b> button and then click anywhere in the target application's window to automatically select the corresponding item in the list.<br>
+If multiple conditions are set, only windows that match all conditions will be targeted, so delete unnecessary conditions and leave them blank.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+To add another application as a target, reselect a blank row and then enter new conditions.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Window Title</b> is evaluated by partial match, and <b>Window Class</b> is evaluated by prefix match.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+The behavior of <b>File Name</b> differs depending on whether you specify a full path, only a file name, or a folder path.<br>
+If you specify a full path or only a file name, it is evaluated by exact match. If you specify a folder path, it is evaluated by prefix match, so all programs located under the specified folder will be targeted for disabling.
+<div class="gap1"><br></div>
+
+<table class="exmtbl">
+<tr><td class="exmhead">Example 1)</td><td>If you specify "C:\games\main\abc.exe", "C:\games\main\abc.exe" will be targeted, and "C:\games\sub\abc.exe" will be excluded.</td></tr>
+<tr><td class="exmhead">Example 2)</td><td>If you specify "abc.exe", both "C:\games\main\abc.exe" and "C:\games\sub\abc.exe" will be targeted.</td></tr>
+<tr><td class="exmhead">Example 3)</td><td>If you specify "C:\games", "C:\games\main\abc.exe", "C:\games\sub\abc.exe", and "C:\games\sub\xyz.exe" will all be targeted.</td></tr>
+</table>
+</div>
+
+</div>
+
+</body>
+</html>

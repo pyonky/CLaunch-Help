@@ -1,0 +1,117 @@
+﻿<html>
+<head>
+<title>Advanced Options for Already Running Program dialog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Advanced Options for Already Running Program dialog</div>
+
+<div class="p1">
+This dialog is displayed when you click the <b>Advanced Options</b> button for the <a href="dlgItemProp.htm#alreadyrunning"><b>Action when the program is already running</b></a> setting in the <b>Item Properties</b> dialog of an item that has a program or document registered.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Action when the program is already running</div>
+<div class="p2">
+Selects the behavior when you try to launch a program again after it has already been launched.<br>
+The actual behavior depends on the program, so it may not work as expected.<br>
+If you have problems launching the program, set it to <b>Default</b>.
+</div>
+
+<div class="p1">
+<ul class="selection">
+<li><b>Default</b><br>
+Launches the same program again.
+
+<li><b>Activate</b><br>
+Activates the window of the running program.
+
+<li><b>Close</b><br>
+Closes the window of the running program.
+
+<li><b>Do Nothing</b><br>
+Does nothing.<br>
+By specifying <b>Filtering conditions for target windows</b>, you can configure it to launch the program only when no window that matches the specified conditions exists.
+</ul>
+</div>
+<div class="gap1"><br></div>
+
+<div class="p2">
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Show hidden windows (when <b>Activate</b> is selected)</b><br>
+If the target window to be activated is hidden, it will be made visible.<br>
+This is useful for applications that minimize to the task tray, but windows that were intentionally hidden may also be shown.<br>
+Therefore, when enabling this option, set <b>Filtering conditions for target windows</b> as needed.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Terminate the process forcefully (when <b>Close</b> is selected)</b><br>
+Forcibly terminates windows that could not be closed by the normal procedure.<br>
+Force termination may cause data corruption or data loss. Use at your own risk.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Limit the target to processes launched from this item</b><br>
+Limits the target to windows opened by the item that this dialog is configured for.<br>
+If disabled, all windows are targeted, including processes launched from Explorer, etc.<br>
+If the registered program is launched as administrator, this option is ignored.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Change the target to the specified program</b><br>
+Changes the target from the program launched by the item that this dialog is configured for to a different program.<br>
+This is for special application configurations where a program launched first starts another program as a secondary launch.
+</div>
+
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">Filtering conditions for target windows</div>
+
+<div class="p2">
+Configure the filtering conditions for target windows.
+</div>
+
+<div class="p1">
+<ul class="selection">
+<li><b>Target all windows created by this program</b><br>
+No filtering is performed.
+
+<li><b>Limit to windows that meet the following conditions</b><br>
+Windows that do not match the specified conditions for window title and window class are excluded from the target.
+
+<li><b>Exclude windows that meet the following conditions</b><br>
+Windows that match the specified conditions for window title and window class are excluded from the target.
+</ul>
+</div>
+<div class="gap1"><br></div>
+
+<div class="p2">
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+When a blank row in the list is selected, entering a condition in <b>Window Title</b> or <b>Window Class</b> will automatically register it as a filtering condition.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+Click the <b>Existing Windows</b> button to show a list of running applications. Select the target application and click OK to retrieve its information.<br>
+If you cannot find the target application in the list, click the <b>Window Finder</b> button and then click anywhere in the target application's window to automatically select the corresponding item in the list.<br>
+If multiple conditions are set, only windows that match all conditions will be targeted, so delete unnecessary conditions and leave them blank.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Window Title</b> is evaluated by partial match, and <b>Window Class</b> is evaluated by prefix match.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+To add another condition, reselect a blank row and then enter new conditions.
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+﻿<html>
+<head>
+<title>クリック (オプション ダイアログBOX)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">クリック (オプション ダイアログBOX)</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">クリックファンクション</div>
+
+<div class="p2">
+クリック系の操作を行ったときにCLaunchを表示する、または登録アイテムを起動する機能です。
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+上部の「シングル」「ダブル」」「トリプル」「ホイール」「長押し」ボタンをクリックすると、対応するクリック系操作の一覧が表示されます。</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+操作名の左にある[+]をクリックすると、操作の有効範囲が表示され、有効範囲名の左にあるチェックボックスをクリックすると、選択した操作でCLaunchを表示できるようになります。<br>
+場所を選ばずに、どこでもCLaunchを表示させたい場合は、「どこでも」をチェックしてください。</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+チェックBOXをクリックすると、「初期表示ページの選択」ダイアログBOXが表示されるので、最初に表示させたいページを選択してください。<br>
+<span class="bracket">「</span>前回のページ」を選択すると、非表示化される前に表示していたページが初期表示されます。</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+初期表示ページを変更したいときには、一旦チェックを外してから再度チェックすると、「初期表示ページの選択」ダイアログBOXが表示されます。</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+目的の操作がアイテムの起動に割り当てられている場合は、一旦チェックを外して現在の割り当てを解除してから、再度チェックしてください。</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+アイテムのマウス直接起動の割り当ては、アイテムのプロパティの「<a href="dlgItemProp.htm#mouselaunch">マウス直接起動</a>」で設定できます。</div>
+</div>
+
+<div class="h2"><img src="images/Dot.png">カーソルがウィンドウ外へ出たらCLaunchを非表示化する</div>
+<div class="p2">クリックファンクションでCLaunchを表示させたあと、カーソルがウィンドウ外に出たら自動的に非表示化します。<br></div>
+
+<div class="h2"><img src="images/Dot.png">シングルクリックを遅延エミュレートする</div>
+<div class="p2">ホイールボタン、サイドボタン1、サイドボタン2のダブルクリックまたはトリプルクリックに機能の割り当てがあり、シングルクリックには何も割り当てられてない場合の動作を変更します。<br>
+このオプションを有効化すると、マウスボタンを1回クリックしてもシステム本来の処理が直ぐには行われず、Windowsで設定されているダブルクリックの入力許容時間(デフォルト設定では500ms)が経過した後にシングルクリック時の動作が発生するようになります。(ダブルクリックの入力許容時間は、コントロールパネルのマウスのプロパティで変更できます。)<br>
+例えばサイドボタン1のダブルクリックにCLaunchの表示が割り当てられているとします。このオプションが無効設定の場合は、ブラウザ上でサイドボタン1をダブルクリックすると、1回目のクリックでブラウザの「戻る」が実行され、2回目のクリックでCLaunchが表示されます。
+一方このオプションが有効設定の場合は、サイドボタン1を1回クリックした後、500ms以内にもう一度クリックすればCLaunchが表示され、クリックせずに500msが経過した場合はブラウザの「戻る」が実行されます。<br>
+このオプションは操作性への影響が大きいため、左ボタンと右ボタンには適用されません。<br></div>
+
+<div class="h2"><img src="images/Dot.png">ダブル／トリプルクリックのタイムアウトを待つ</div>
+<div class="p2">同じマウスボタンのシングルクリック、ダブルクリック、トリプルクリックに、それぞれ別の機能を割り当てるための設定です。<br>
+このオプションを無効設定にしてダブルクリックを行うと、1回目のクリックでシングルクリックへの割り当てアイテムが起動し、2回目のクリックでダブルクリックへの割り当てアイテムが起動します。
+一方このオプションを有効設定にした場合は、マウスボタンを1回クリックした後、500ms(ダブルクリックの入力許容時間)以内にもう一度クリックすればダブルクリックへの割り当てアイテムが起動し、クリックせずに500msが経過した場合はシングルクリックへの割り当てアイテムが起動します。
+トリプルクリックに対しても同様の効果となります。<br>
+このオプションは、全てのマウスボタンに適用されます。<br></div>
+
+<div class="h2"><img src="images/Dot.png">カーソルが移動したら長押しをキャンセルする</div>
+<div class="p2">マウスボタンを押した後でカーソルが移動した場合は、一旦ボタンを放してから再度押すまで長押しの判定を停止させ、割り当て機能の誤発動を防止します。<br>
+ファイルをドラッグ＆ドロップするために長押しでCLaunch表示させたい場合は、チェックを外してください。<br></div>
+
+<div class="h2"><img src="images/Dot.png">低レベルマウスフックを使用する</div>
+<div class="p2">ゲームソフトでパフォーマンスの低下が発生する場合は、このオプションを有効化してください。
+また、特定のウィンドウ上でクリックファンクションや<a href="optCircle.htm">サークルファンクション</a>が機能しない場合も、このオプションによって改善する場合があります。<br></div>
+
+<div class="p2">
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<a href="extClAdmin.htm">ClAdmin</a>から起動した場合、このオプションは強制的に有効化されます。</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+Windows 2000よりも前のOSでは、このオプションは無効化されます。</div>
+</div>
+
+<div class="h2"><img src="images/Dot.png">長押しの認識時間</div>
+<div class="p2">マウスのボタンを押してから、長押し系操作に割り当てた機能が実行されるまでの待ち時間を設定します。<br></div>
+
+</body>
+</html>

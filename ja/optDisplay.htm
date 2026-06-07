@@ -1,0 +1,126 @@
+﻿<html>
+<head>
+<title>表示 (オプション ダイアログBOX)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">表示 (オプション ダイアログBOX)</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">CLaunchの表示位置</div>
+
+<div class="p2">
+CLaunchの初期表示位置を、表示操作のカテゴリ別に選択します。<br>
+「表示操作」ドロップダウンリストから操作カテゴリを選択し、その操作でCLaunchを表示したときの初期表示位置を、「表示位置」リストから選択してください。
+
+<ul class="selection">
+<li>カーソルの周囲 － カーソルがウィンドウの中心となる位置へ表示します。
+<li>カーソルの右下 － カーソルの右下へ表示します。
+<li>前回表示した位置 － CLaunchが非表示化される前に表示していた位置へ表示します。
+<li>画面中央 － プライマリディスプレイの中央へ表示します。
+<li>指定座標 － 下記「表示座標」で指定した位置へ表示します。
+</ul>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>X座標、Y座標</b><br>
+「指定座標」を選択した場合のCLaunchの表示位置を、ディスプレイのX、Y座標で指定してください。<br>
+この設定は、全ての表示操作に対して共通適用されます。表示操作別に異なる座標を指定することは出来ません。
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">常に手前に表示する</div>
+<div class="p2">
+CLaunchのウィンドウを常に他のウィンドウよりも手前に表示します。
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>ウィンドウロック中のみ</b><br>
+<a href="extPin.htm">ウィンドウロック</a>中は最前面に表示され、ウィンドウロックを解除すると最前面化も解除されるようになります。
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">待機表示</div>
+<div class="p2">
+CLaunchを常時画面に表示しておくための設定です。<br>
+「常に表示しておく」をチェックし、「待機位置」リストから表示させたい場所を選択してください。
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+クリックファンクションやホットキーなど、CLaunchの表示に割り当てた操作を行うと、操作に対応した表示位置へ移動してアクティブ化されます。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+カーソルがウィンドウ外へ出るか、非アクティブ化されると待機位置へ戻ります。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+閉じるボタンをクリックした場合、およびEscキーを押した場合は非表示化されます。
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">ツールチップ</div>
+<div class="p2">
+「ツールチップを表示する」をチェックすると、登録アイテム上でカーソルを静止させたときにツールチップが表示されるようになります。
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>タブのツールチップ</b><br>
+ページタブ上でカーソルを静止させたときに、ページ名をツールチップで表示します。
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>バルーン型</b><br>
+ツールチップを吹き出し形状にします。
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>表示遅延</b><br>
+ツールチップが表示されるまでの、カーソルの静止時間を指定します。
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>横幅制限</b><br>
+ツールチップの横幅を指定値に制限し、収まり切らない文字列を改行して表示します。<br>
+ただしツールチップに設定されている文字列中に、設定した横幅よりも長い英単語が含まれている場合、ツールチップの横幅は単語の横幅に合わせて調整されます。<br>
+0を指定すると無制限になります。
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">タスクトレイのアイコン</div>
+<div class="p2">
+タスクトレイにアイコンを表示させたくない場合は、「タスクトレイにアイコンを表示する」のチェックを外してください。
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>アイコンを変更する</b><br>
+タスクトレイに表示するアイコンを変更することができます。<br>
+16×16ピクセルのアイコンを5個以上含むDLLファイル、またはICLファイルを指定してください。<br>
+ファイル内のアイコンインデックスと、表示されるアイコンとの対応は以下の通りです。<br>
+ファイルが保有するアイコンの数に応じてアニメーションのコマ数は変化します。
+</div>
+<div class="gap1"><br></div>
+
+<table class="exmtbl">
+<tr><td class="exmhead2">0</td><td>： 通常時</td></tr>
+<tr><td class="exmhead2">1</td><td>： 制限モード中、フック解除中</td></tr>
+<tr><td class="exmhead2">2</td><td>： スクリーンセーバー停止中</td></tr>
+<tr><td class="exmhead2">3～</td><td>： アニメーション表示の1コマ目～</td></tr>
+</table>
+
+</div>
+
+</body>
+</html>

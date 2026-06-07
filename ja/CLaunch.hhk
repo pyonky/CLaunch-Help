@@ -1,0 +1,669 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="動作環境">
+		<param name="Local" value="fstEnvironment.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="対応OS">
+		<param name="Local" value="fstEnvironment.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="サイドボタン">
+		<param name="Local" value="fstEnvironment.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="インストール">
+		<param name="Local" value="fstInstall.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アンインストール">
+		<param name="Local" value="fstInstall.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ボタン">
+		<param name="Local" value="fstView.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページタブ">
+		<param name="Local" value="fstView.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunchを表示する">
+		<param name="Local" value="useShowHide.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ドラッグ＆ドロップで登録">
+		<param name="Local" value="useRegister.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="特殊フォルダーの登録">
+		<param name="Local" value="useRegister.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="メニューから登録">
+		<param name="Local" value="useRegister.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="実行中のアプリケーションを登録">
+		<param name="Local" value="useRegister.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムの起動">
+		<param name="Local" value="useLaunch.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページの切替え">
+		<param name="Local" value="usePage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページの追加">
+		<param name="Local" value="usePage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページ順序の入れ替え">
+		<param name="Local" value="usePage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="サブメニュー">
+		<param name="Local" value="useSubmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムの移動">
+		<param name="Local" value="useMoveItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムのコピー">
+		<param name="Local" value="useMoveItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページ間でのアイテムの移動">
+		<param name="Local" value="useMoveItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ウィンドウサイズ (表示ボタン数) の変更">
+		<param name="Local" value="useResize.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="キーボード操作">
+		<param name="Local" value="useKeyboard.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="デザインの変更">
+		<param name="Local" value="useDesign.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="フォルダーのメニュー展開">
+		<param name="Local" value="extFolderMenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ドラッグ＆ドロップ">
+		<param name="Local" value="useDnD.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OLEドラッグ＆ドロップ">
+		<param name="Local" value="useDnD.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="マウス操作">
+		<param name="Local" value="useMouse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ボタンのロック">
+		<param name="Local" value="extButtonLock.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="同時起動">
+		<param name="Local" value="extChainLaunch.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="イベントによるアイテムの起動">
+		<param name="Local" value="extEvents.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ウィンドウロック">
+		<param name="Local" value="extPin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="制限モード">
+		<param name="Local" value="extSuspend.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="フック解除">
+		<param name="Local" value="extSuspend.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムの検索">
+		<param name="Local" value="extSearchItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="表示モード切替え">
+		<param name="Local" value="extViewMode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="設定バックアップ">
+		<param name="Local" value="extBackup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="デザインのバックアップ">
+		<param name="Local" value="extBackup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="バックアップからの復元">
+		<param name="Local" value="extBackup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="相対パス">
+		<param name="Local" value="extConvertPath.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="絶対パス">
+		<param name="Local" value="extConvertPath.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイコンの一括更新">
+		<param name="Local" value="extIconRefresh.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="プラグイン">
+		<param name="Local" value="extPlugin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="スキン">
+		<param name="Local" value="extSkin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="コマンドラインパラメータ">
+		<param name="Local" value="extStartupOption.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="多重起動">
+		<param name="Local" value="extStartupOption.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ClAdmin">
+		<param name="Local" value="extClAdmin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="メインメニュー">
+		<param name="Local" value="menuMain.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページメニュー">
+		<param name="Local" value="menuPage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページ追加">
+		<param name="Local" value="menuPage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムの並べ替え">
+		<param name="Local" value="menuPage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムメニュー">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="クリップボード起動">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="親フォルダーを開く">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="親フォルダーをメニュー展開">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ボタンのロック">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="空白挿入">
+		<param name="Local" value="menuItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="空白ボタンメニュー">
+		<param name="Local" value="menuEmpty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="空白削除">
+		<param name="Local" value="menuEmpty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページデザイン">
+		<param name="Local" value="dlgDesignClassic.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="スキンパターン">
+		<param name="Local" value="dlgDesignModern.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムのプロパティ">
+		<param name="Local" value="dlgItemProp.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="クリップボード置換タグ">
+		<param name="Local" value="dlgItemProp.htm#parameters">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="メニューオプション">
+		<param name="Local" value="dlgItemProp.htm#menuoptions">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="優先度">
+		<param name="Local" value="dlgItemProp.htm#priority">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="特権レベル">
+		<param name="Local" value="dlgItemProp.htm#privilege">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ショートカットキー">
+		<param name="Local" value="dlgItemProp.htm#shortcutkey">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ホットキー">
+		<param name="Local" value="dlgItemProp.htm#hotkey">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="マウス直接起動">
+		<param name="Local" value="dlgItemProp.htm#mouselaunch">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="同時起動アイテム">
+		<param name="Local" value="dlgItemProp.htm#chainlaunch">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイコンの変更">
+		<param name="Local" value="dlgItemProp.htm#changeicon">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイコンを更新しない">
+		<param name="Local" value="dlgItemProp.htm#dontupdateicon">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="右クリックでシェルのメニューを表示する">
+		<param name="Local" value="dlgItemProp.htm#showshellmenu">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="プログラムが既に起動している場合の処理">
+		<param name="Local" value="dlgItemProp.htm#alreadyrunning">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="カーソルが画面端を離れたら停止状態を解除">
+		<param name="Local" value="dlgItemProp.htm#suspend_ss">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="対象がフォルダーでも親フォルダーを展開する">
+		<param name="Local" value="dlgItemProp.htm#fcm_clipboard">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムの登録">
+		<param name="Local" value="dlgAdd.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ウィンドウ参照">
+		<param name="Local" value="dlgAdd.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ショートカットをリンク先に変換">
+		<param name="Local" value="dlgAdd.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="特殊フォルダー">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="特殊アイテム">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="スクリーンセーバー起動">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="スクリーンセーバー停止">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ディスプレイの電源を切る">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="フォルダー展開">
+		<param name="Local" value="extSpecialItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunch オプション">
+		<param name="Local" value="dlgOption.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="クリックファンクション">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="カーソルがウィンドウ外へ出たらCLaunchを非表示化する">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="シングルクリックを遅延エミュレートする">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ダブル／トリプルクリックのタイムアウトを待つ">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="カーソルが移動したら長押しをキャンセルする">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="低レベルマウスフックを使用する">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="長押しの認識時間">
+		<param name="Local" value="optClick.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="エッジファンクション">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="エッジ認識範囲の設定">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="マウスボタンの押下中のみCLaunchを表示する">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunchが表示されるまでの待ち時間">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunchが非表示化されるまでの待ち時間">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムが起動されるまでの待ち時間">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページが自動で切り替わるまでの待ち時間">
+		<param name="Local" value="optEdge.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="サークル">
+		<param name="Local" value="optCircle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="回転数">
+		<param name="Local" value="optCircle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="最大半径">
+		<param name="Local" value="optCircle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="最小半径">
+		<param name="Local" value="optCircle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="キーボード操作">
+		<param name="Local" value="optKeyboard.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunchの表示ホットキー">
+		<param name="Local" value="optKeyboard.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="同一キーの連続入力のタイムアウトを待つ">
+		<param name="Local" value="optKeyboard.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OLEドラッグ開始操作">
+		<param name="Local" value="optMouse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="マウス操作">
+		<param name="Local" value="optMouse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ファイラー">
+		<param name="Local" value="optFolder.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="展開ファイル数">
+		<param name="Local" value="optMenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="サブメニューのアイコンサイズ">
+		<param name="Local" value="optMenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="サブメニューのフォント">
+		<param name="Local" value="optMenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunchがアクティブな時に無効化する機能">
+		<param name="Local" value="optDisable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="制限モード中に無効化する機能">
+		<param name="Local" value="optDisable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="フルスクリーンのウィンドウがアクティブな時に無効化する機能">
+		<param name="Local" value="optDisable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アプリケーションごとの無効化設定">
+		<param name="Local" value="optDisable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="プラグイン選択">
+		<param name="Local" value="optPlugin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="プラグインの設定">
+		<param name="Local" value="optPlugin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunchの表示位置">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="常に手前に表示する">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="待機表示">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ツールチップ">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="タスクトレイにアイコンを表示する">
+		<param name="Local" value="optDisplay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="キャプション">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="テキスト位置の微調整">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="フォント">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="タイトルバーの高さ">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ウィンドウ枠の幅">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ウィンドウの背景色">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ウィンドウの透明度">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="非アクティブ時のみ透明化">
+		<param name="Local" value="optDesign1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="タブサイズ">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="タブの横幅を固定">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="タブを複数行で表示">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="テキストを複数行で表示">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="左揃えテキスト">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ボタンサイズ">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイコンサイズ">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイコン表示位置">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイコン位置の微調整">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ボタンのテキスト">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="テキストの単一行表示">
+		<param name="Local" value="optDesign2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページ名">
+		<param name="Local" value="optPages.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="スクロール状態の自動リセット">
+		<param name="Local" value="optPages.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="このデザインを新規ページの初期設定にする">
+		<param name="Local" value="optPages.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="全てのページをこのデザインで統一する">
+		<param name="Local" value="optPages.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="自動バックアップ">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="シングルユーザーモード">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="タブのマウスオーバーでページを切り替える">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ページ切替えをループさせる">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ウィンドウロック状態を記憶する">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="制限モード状態を記憶する">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテム検索の対象にツールチップの文字列を含める">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテム起動後に検索ウィンドウを閉じる">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテム起動後に表示モード1へ切り替える">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ドラッグ＆ドロップ起動後にウィンドウロックを解除する">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテムを相対パスで登録する">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテム登録後にプロパティ画面を表示する">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アイテム削除後に空白を自動で詰める">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ごみ箱のアイコンを定期更新する">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="不要になった物理メモリを解放する">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLaunchのプロセス優先度">
+		<param name="Local" value="optOther.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="配布元・連絡先">
+		<param name="Local" value="othrContact.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="バージョン履歴">
+		<param name="Local" value="othrContact.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="著作権・免責">
+		<param name="Local" value="othrCopyright.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

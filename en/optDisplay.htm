@@ -1,0 +1,126 @@
+﻿<html>
+<head>
+<title>Display (Options dialog)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Display (Options dialog)</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">Display positions</div>
+
+<div class="p2">
+Select the initial display position of CLaunch for each category of display operation.<br>
+Select an operation category from the <b>Operation to Show CLaunch</b> drop-down list, then select the initial position for that operation from the <b>Position</b> list.
+
+<ul class="selection">
+<li><b>Around the Cursor</b> - Displays CLaunch centered around the cursor.
+<li><b>Bottom Right of the Cursor</b> - Displays CLaunch at the bottom-right of the cursor.
+<li><b>Previous Position</b> - Displays CLaunch at the position where it was shown before being hidden.
+<li><b>Center of the Screen</b> - Displays CLaunch at the center of the primary display.
+<li><b>Specified Coordinates</b> - Displays CLaunch at the coordinates specified below.
+</ul>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>X coordinate, Y coordinate</b><br>
+If <b>Specified Coordinates</b> is selected, specify the display position of CLaunch using the display’s X and Y coordinates.<br>
+These coordinates are applied to all show operations. You cannot specify different coordinates for each operation category.
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">Always on top</div>
+<div class="p2">
+Displays the CLaunch window above all other windows.
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Only while pinned</b><br>
+When <a href="extPin.htm">CLaunch is pinned</a>, it stays on top. When it is unpinned, the topmost state is removed.
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">Standby Position</div>
+<div class="p2">
+Settings for keeping CLaunch always visible on the screen.<br>
+Check <b>Always show CLaunch</b>, then select the desired location from the <b>Position</b> list.
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+When you perform an operation assigned to show CLaunch (such as a click function or hotkey), CLaunch moves to the position associated with that operation and becomes active.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+When the cursor leaves the window or CLaunch becomes inactive, it returns to the standby position.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+If you click the Close button or press the Esc key, CLaunch is hidden.
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">Tooltips</div>
+<div class="p2">
+If <b>Show tooltips</b> is checked, tooltips are displayed when you keep the cursor over a registered item.
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Include tabs</b><br>
+Displays page names in a tooltip when you keep the cursor over a page tab.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Balloon-shaped</b><br>
+Displays tooltips in a balloon style.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Delay</b><br>
+Specifies how long the cursor must remain stationary before a tooltip is displayed.
+</div>
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Max Width</b><br>
+Limits the width of tooltips to the specified value and wraps text that exceeds the width.<br>
+However, if the tooltip contains a word longer than the specified width, the tooltip width will expand to fit that word.<br>
+Specify <b>0</b> for unlimited width.
+</div>
+</div>
+
+<br><hr>
+
+<div class="h2"><img src="images/Dot.png">Tray icon</div>
+<div class="p2">
+If you do not want to display an icon in the task tray, uncheck <b>Show tray icon</b>.
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<b>Use alternative icons</b><br>
+Lets you change the icon displayed in the task tray.<br>
+Specify a DLL or ICL file that contains at least five 16×16 pixel icons.<br>
+The correspondence between icon indexes in the file and displayed icons is as follows.<br>
+The number of animation frames depends on how many icons the file contains.
+</div>
+<div class="gap1"><br></div>
+
+<table class="exmtbl">
+<tr><td class="exmhead2">0</td><td>: Normal state</td></tr>
+<tr><td class="exmhead2">1</td><td>: Restricted Mode / Hooks disabled</td></tr>
+<tr><td class="exmhead2">2</td><td>: Screen saver suspended</td></tr>
+<tr><td class="exmhead2">3 ~</td><td>: First and subsequent frames of animation</td></tr>
+</table>
+
+</div>
+
+</body>
+</html>

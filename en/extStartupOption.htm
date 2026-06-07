@@ -1,0 +1,57 @@
+﻿<html>
+<head>
+<title>Startup Options</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Startup Options</div>
+<div class="h2"><img src="images/Dot.png">Command Line Parameters</div>
+<div class="p2">
+You can specify the following command line parameters when starting CLaunch.<br><br>
+
+<table class="opttbl">
+<tr class="wide"><td class="optsw1">/n</td><td class="sep">:</td><td>Starts CLaunch in non-resident mode.<br>
+CLaunch is displayed at startup and exits when it is hidden.<br>
+By default, it is initially displayed at the position where CLaunch was last closed, but you can specify the display position by combining /m or /s.</td></tr>
+
+<tr class="wide"><td class="optsw1">/nh</td><td class="sep">:</td><td>Starts CLaunch in the <a href="extSuspend.htm">Unhook</a> state.</td></tr>
+
+<tr class="wide"><td class="optsw1">/l</td><td class="sep">:</td><td>Displays CLaunch in the pinned state.<br>
+By default, it is initially displayed at the position where CLaunch was last closed, but you can specify the display position by combining /m or /s.</td></tr>
+
+<tr class="wide"><td class="optsw1">/m</td><td class="sep">:</td><td>Displays CLaunch at the current cursor position.</td></tr>
+
+<tr class="wide"><td class="optsw1">/s</td><td class="sep">:</td><td>Displays CLaunch at the specified coordinates.<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/s[</span>X coordinate<span class="fmt">]:[</span>Y coordinate<span class="fmt">]</span><br>
+<span class="fmtlabel">Example</span> : <span class="fmt">/s200:100</span></td></tr>
+
+<tr class="wide"><td class="optsw1">/p</td><td class="sep">:</td><td>Specifies the initial display page.<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/p[</span>page number<span class="fmt">]</span><br>
+<span class="fmtlabel">Example</span> : <span class="fmt">/p2</span></td></tr>
+
+<tr class="wide"><td class="optsw1">/b</td><td class="sep">:</td><td>Specifies the initial number of buttons.<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/b[</span>horizontal<span class="fmt">]:[</span>vertical<span class="fmt">]</span><br>
+<span class="fmtlabel">Example</span> : <span class="fmt">/b5:3</span></td></tr>
+
+<tr class="wide"><td class="optsw1">/d</td><td class="sep">:</td><td>Delays the startup of CLaunch by the specified time (in milliseconds).<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/d[</span>wait time<span class="fmt">]</span><br>
+<span class="fmtlabel">Example</span> : <span class="fmt">/d3000</span> (3-second delay)</td></tr>
+
+<tr class="wide"><td class="optsw1">/a</td><td class="sep">:</td><td>Enables the auto-hide function.<br>
+After CLaunch is displayed by /n, /l, /m or /s, it will automatically be hidden when the cursor moves outside the window.</td></tr>
+
+<tr class="wide"><td class="optsw1">/r</td><td class="sep">:</td><td>Discards the cache data and re-acquires the icon images.</td></tr>
+</table>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Launching Multiple Instances of CLaunch</div>
+<div class="p2">
+If CLaunch is already resident and CLaunch.exe is launched again, the CLaunch window will be displayed. (It will be forcibly displayed even in <b>Restricted Mode</b> or in the <b>Unhook</b> state.)<br>
+In this case, the command line parameters <b>/l, /m, /s, /p, /a</b> can be specified for the subsequently launched CLaunch.exe.<br>
+</div>
+
+</body>
+</html>

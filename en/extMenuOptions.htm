@@ -1,0 +1,105 @@
+﻿<html>
+<head>
+<title>Menu Options</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Menu Options</div>
+<div class="p1">
+You can change the behavior of menus by specifying <a href="dlgItemProp.htm#menuoptions"><b>Menu Options</b></a> in the fourth input field of the <b>Item Properties</b> dialog for submenus and folder items.<br>
+To specify multiple words, separate them with spaces.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Common options for Submenu and Folder Contents Menu</div>
+<div class="gap1"><br></div>
+
+<div class="p2">
+<table class="opttbl">
+<tr class="wide"><td class="optsw1">/w</td><td class="sep">:</td><td>Limits the width of menu items. It takes precedence over the <b>Column Width</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/w[</span>column width<span class="fmt">]</span></td></tr>
+<tr class="wide"><td class="optsw1">/r</td><td class="sep">:</td><td>Limits the number of rows of the menu. It takes precedence over the <b>Number of Rows</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/r[</span>number of rows<span class="fmt">]</span></td></tr>
+<tr class="wide"><td class="optsw1">/c</td><td class="sep">:</td><td>Specifies the number of columns of the menu. It takes precedence over the <b>Number of Columns</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/c[</span>number of columns<span class="fmt">]</span></td></tr>
+<tr class="wide"><td class="optsw1">/t</td><td class="sep">:</td><td>Tooltips will be displayed when the cursor is over the menu items. It takes precedence over the <b>Show tooltips</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.</td></tr>
+<tr class="wide"><td class="optsw1">/is</td><td class="sep">:</td><td>Specifies the display size of menu icons. It takes precedence over the <b>Icon size</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/is[</span>icon size<span class="fmt">]</span></td></tr>
+<tr class="wide"><td class="optsw1">/il</td><td class="sep">:</td><td>Uses the icons for buttons. It takes precedence over the <b>Use large icons</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.</td></tr>
+<tr class="wide"><td class="optsw1">/p</td><td class="sep">:</td><td>Specifies the coordinates to display the menu.<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/p[</span>X coordinate<span class="fmt">]:[</span>Y coordinate<span class="fmt">]</span></td></tr>
+</table>
+</div>
+<div class="gap1"><br></div>
+
+<div class="p3">
+<b>Examples of menu options:</b><br>
+<div class="example">
+<table class="menuoptexm">
+<tr><td class="exmsw">/r10 /c3</td><td>Displays the menu in 10 rows and 3 columns.</td></tr>
+<tr><td class="exmsw">/il /is32</td><td>Uses the icons for buttons and displays them by 32 x 32 pixels.</td></tr>
+<tr><td class="exmsw">/p400:300</td><td>The menu will be displayed to coordinates of X=400 and Y=300.</td></tr>
+</table>
+</div>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Options exclusive to the Folder Contents Menu</div>
+<div class="p2">
+In addition to the common options listed above, the following dedicated options and filter strings are available in the <a href="extFolderMenu.htm">Folder Contents Menu</a>.
+<div class="gap1"><br></div>
+
+<table>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+By specifying a filter string, you can display only files whose names match a specific pattern.</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+The wildcards "*" and "?" can be specified in the filter string. "*" will be replaced with any string of zero or more characters, and "?" will be replaced with any single character.</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+If no sort option is specified, the files will be sorted in ascending order by file name.</div>
+</table>
+</div>
+<div class="gap3"><br></div>
+
+<div class="p2">
+<table class="opttbl">
+<tr class="wide"><td class="optsw2">/max</td><td class="sep">:</td><td>Limits the number of files to display. It takes precedence over the <b>Number of Items</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.<br>
+<span class="fmtlabel">Format</span> : <span class="fmt">/max[</span>number of files<span class="fmt">]</span></td></tr>
+
+<tr class="wide"><td class="optsw2">/in</td><td class="sep">:</td><td>The icons will not be displayed.</td></tr>
+
+<tr class="wide"><td class="optsw2">/h</td><td class="sep">:</td><td>The hidden files will be displayed. (The system files will also be displayed in Windows 7 or later.)</td></tr>
+
+<tr class="narrow"><td class="optsw2">/f</td><td class="sep">:</td><td>Specifies the filter operation by combination with the following characters.</td></tr>
+<tr class="narrow"><td class="optsw2">i</td><td class="sep">:</td><td>The files specified by the filter strings will be hidden.</td></tr>
+<tr class="wide"><td class="optsw2">d</td><td class="sep">:</td><td>The folders will be included to the filtering target.</td></tr>
+
+<tr class="narrow"><td class="optsw2">/s</td><td class="sep">:</td><td>Specifies the sorting operation by combination with the following characters. (Only one of e, s, u, c, a can be specified.)</td></tr>
+<tr class="narrow"><td class="optsw2">e</td><td class="sep">:</td><td>Sorting by file extension.</td></tr>
+<tr class="narrow"><td class="optsw2">s</td><td class="sep">:</td><td>Sorting by file size.</td></tr>
+<tr class="narrow"><td class="optsw2">u</td><td class="sep">:</td><td>Sorting by timestamp of update.</td></tr>
+<tr class="narrow"><td class="optsw2">c</td><td class="sep">:</td><td>Sorting by timestamp of creation.</td></tr>
+<tr class="narrow"><td class="optsw2">a</td><td class="sep">:</td><td>Sorting by timestamp of access.</td></tr>
+<tr class="narrow"><td class="optsw2">r</td><td class="sep">:</td><td>Sorting in descending order.</td></tr>
+<tr class="narrow"><td class="optsw2">d</td><td class="sep">:</td><td>Sorting without dividing the folders and files.</td></tr>
+<tr class="wide"><td class="optsw2">n</td><td class="sep">:</td><td>Inhibits the sorting.</td></tr>
+
+<tr class="wide"><td class="optsw2">/i</td><td class="sep">:</td><td>Child menus will inherit the filter strings and sort options.</td></tr>
+</table>
+</div>
+<div class="gap1"><br></div>
+
+<div class="p3">
+<b>Examples of menu options:</b><br>
+<div class="example">
+<table class="menuoptexm">
+<tr><td class="exmsw">/h /in /ssr</td><td>The menu will be displayed in descending order of file size including hidden files without icons.</td></tr>
+<tr><td class="exmsw">*.txt *.html</td><td>Only files that have extensions ".txt" or ".html" will be displayed.</td></tr>
+<tr><td class="exmsw">*.dat *.tmp /fi</td><td>The files that have extensions ".dat" and ".tmp" will be hidden.</td></tr>
+<tr><td class="exmsw">abc???.jpg /sur</td><td>Only ".jpg" files whose names start with "abc" and have six characters after it will be displayed in descending order of last modified time.</td></tr>
+</table>
+</div>
+</div>
+
+</body>
+</html>

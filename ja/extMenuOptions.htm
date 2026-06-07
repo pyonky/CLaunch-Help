@@ -1,0 +1,105 @@
+﻿<html>
+<head>
+<title>メニューオプション</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">メニューオプション</div>
+<div class="p1">
+サブメニューとフォルダーアイテムは、「アイテムのプロパティ」ダイアログBOXで「<a href="dlgItemProp.htm#menuoptions">メニューオプション</a>」 (上から4番目の入力欄)を指定することにより、メニューの表示動作を変更できます。<br>
+複数の単語は半角スペース区切りで入力してください。
+</div>
+
+<div class="h2"><img src="images/Dot.png">サブメニュー、フォルダー展開メニュー共通のオプション</div>
+<div class="gap1"><br></div>
+
+<div class="p2">
+<table class="opttbl">
+<tr class="wide"><td class="optsw1">/w</td><td class="sep">：</td><td>メニューアイテムの横幅を制限します。オプションの「<a href="optMenu.htm">メニューの列幅</a>」よりも優先されます。<br>
+<span class="fmtlabel">【書式】 </span>/w[列幅]</td></tr>
+<tr class="wide"><td class="optsw1">/r</td><td class="sep">：</td><td>メニューアイテムの行数を制限します。オプションの「<a href="optMenu.htm">メニューの行数</a>」よりも優先されます。<br>
+<span class="fmtlabel">【書式】 </span>/r[行数]</td></tr>
+<tr class="wide"><td class="optsw1">/c</td><td class="sep">：</td><td>メニューアイテムの列数を指定します。オプションの「<a href="optMenu.htm">メニューの列数</a>」よりも優先されます。<br>
+<span class="fmtlabel">【書式】 </span>/c[列数]</td></tr>
+<tr class="wide"><td class="optsw1">/t</td><td class="sep">：</td><td>カーソルをメニューアイテム上へ移動させたときにツールチップを表示します。オプションの「<a href="optMenu.htm">ツールチップを表示する</a>」よりも優先されます。</td></tr>
+<tr class="wide"><td class="optsw1">/is</td><td class="sep">：</td><td>メニューアイコンの表示サイズを指定します。オプションの「<a href="optMenu.htm">アイコンサイズ</a>」よりも優先されます。<br>
+<span class="fmtlabel">【書式】 </span>/is[アイコン表示サイズ]</td></tr>
+<tr class="wide"><td class="optsw1">/il</td><td class="sep">：</td><td>ボタン用のアイコンを使用します。オプションの「<a href="optMenu.htm">大きいアイコンを使用する</a>」よりも優先されます。</td></tr>
+<tr class="wide"><td class="optsw1">/p</td><td class="sep">：</td><td>指定座標にメニューを表示します。<br>
+<span class="fmtlabel">【書式】 </span>/p[X座標]:[Y座標]</td></tr>
+</table>
+</div>
+<div class="gap1"><br></div>
+
+<div class="p3">
+<b>メニューオプションの例：</b><br>
+<div class="example">
+<table class="menuoptexm">
+<tr valign="top"><td class="exmsw">/r10 /c3</td><td>メニューを10行、3列で表示します。</td></tr>
+<tr valign="top"><td class="exmsw">/il /is32</td><td>ボタン用のアイコンを使用し、32×32ピクセルで表示します。</td></tr>
+<tr valign="top"><td class="exmsw">/p400:300</td><td>画面左上隅から右に400ドット、下に300ドットの位置へメニューを表示します。</td></tr>
+</table>
+</div>
+</div>
+
+<div class="h2"><img src="images/Dot.png">フォルダー展開メニュー専用のオプション</div>
+<div class="p2">
+<a href="extFolderMenu.htm">フォルダー展開メニュー</a>には上記の共通オプションに加えて、以下のフォルダー展開メニュー専用オプションとフィルタ文字列が使用できます。
+<div class="gap1"><br></div>
+
+<table>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+フィルタ文字列を指定すると、特定のパターンにマッチした名称のファイルのみを表示させることができます。</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+フィルタ文字列にはワイルドカードの"*"と"?"が指定できます。"*"は0文字以上の任意の文字列に置き換えられ、"?"は任意の1文字に置き換えられます。</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+ソートオプションを指定しない場合はファイル名の昇順でソートされます。</div>
+</table>
+</div>
+<div class="gap3"><br></div>
+
+<div class="p2">
+<table class="opttbl">
+<tr class="wide"><td class="optsw2">/max</td><td class="sep">：</td><td>展開ファイル数を制限します。オプションの「<a href="optMenu.htm">展開ファイル数</a>」よりも優先されます。<br>
+<span class="fmtlabel">【書式】 </span>/max[展開数]</td></tr>
+
+<tr class="wide"><td class="optsw2">/in</td><td class="sep">：</td><td>アイコンを表示しません。</td></tr>
+
+<tr class="wide"><td class="optsw2">/h</td><td class="sep">：</td><td>隠し属性のファイルを表示します。 (Windows 7 以降は、システム属性のファイルも表示されます。)</td></tr>
+
+<tr class="narrow"><td class="optsw2">/f</td><td class="sep">：</td><td>以下の文字と組み合わせて、フィルタ動作を指定します。</td></tr>
+<tr class="narrow"><td class="optsw2">i</td><td class="sep">：</td><td>フィルタ文字列で指定されたファイルを非表示にします。</td></tr>
+<tr class="wide"><td class="optsw2">d</td><td class="sep">：</td><td>フィルタリングの対象にフォルダーを含めます。</td></tr>
+
+<tr class="narrow"><td class="optsw2">/s</td><td class="sep">：</td><td>以下の文字と組み合わせて、ソートの動作を指定します。 (e, s, u, c, aは何れか1つのみ指定可能)</td></tr>
+<tr class="narrow"><td class="optsw2">e</td><td class="sep">：</td><td>拡張子でソートします。</td></tr>
+<tr class="narrow"><td class="optsw2">s</td><td class="sep">：</td><td>ファイルサイズでソートします。</td></tr>
+<tr class="narrow"><td class="optsw2">u</td><td class="sep">：</td><td>更新日時でソートします。</td></tr>
+<tr class="narrow"><td class="optsw2">c</td><td class="sep">：</td><td>作成日時でソートします。</td></tr>
+<tr class="narrow"><td class="optsw2">a</td><td class="sep">：</td><td>アクセス日時でソートします。</td></tr>
+<tr class="narrow"><td class="optsw2">r</td><td class="sep">：</td><td>降順でソートします。</td></tr>
+<tr class="narrow"><td class="optsw2">d</td><td class="sep">：</td><td>フォルダーとファイルを分けずにソートします。</td></tr>
+<tr class="wide"><td class="optsw2">n</td><td class="sep">：</td><td>ソートしません。</td></tr>
+
+<tr class="wide"><td class="optsw2">/i</td><td class="sep">：</td><td>フィルタ設定、ソートオプションを子メニューへ継承します。</td></tr>
+</table>
+</div>
+<div class="gap1"><br></div>
+
+<div class="p3">
+<b>メニューオプションの例：</b><br>
+<div class="example">
+<table class="menuoptexm">
+<tr valign="top"><td class="exmsw">/h /in /ssr</td><td>隠し属性のファイルを含め、アイコン非表示で、ファイルサイズの大きい順に表示します。</td></tr>
+<tr valign="top"><td class="exmsw">*.txt *.html</td><td>拡張子が".txt"と".html"のファイルのみ表示します。</td></tr>
+<tr valign="top"><td class="exmsw">*.dat *.tmp /fi</td><td>拡張子が".dat"と".tmp"のファイルを表示しません。</td></tr>
+<tr valign="top"><td class="exmsw">abc???.jpg /sur</td><td>"abc"で始まる6桁ファイル名の".jpg"ファイルを、更新日時の新しい順に表示します。</td></tr>
+</table>
+</div>
+</div>
+
+</body>
+</html>

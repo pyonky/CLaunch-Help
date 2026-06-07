@@ -1,0 +1,68 @@
+﻿<html>
+<head>
+<title>インストール、アンインストール</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">インストール、アンインストール</div>
+
+<div class="h2 h2-thin"><img src="images/Dot.png">自動インストール</div>
+<div class="p2">
+ダウンロードした自己解凍ファイルをダブルクリックすると、"Setup.exe" が起動しインストールが開始されます。<br>
+インストールが完了するとCLaunchが自動的に起動し、タスクトレイにアイコン <img src="images/CLTray.ico"> が表示されます。<br>
+スタートアップに登録した場合は、次回のWindows起動時から自動で常駐します。<br>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+スタートアップへの登録時に「<a href="extClAdmin.htm">ClAdminから起動する</a>」をチェックしておくと、CLaunchの表示やアプリケーションの起動に割り当てたマウス操作やホットキーが、管理者の権限で実行されているアプリケーション上でも使えるようになります。
+</div>
+
+</div>
+
+<div class="h2"><img src="images/Dot.png">手動インストール</div>
+<div class="p2">
+ダウンロードしたZip圧縮ファイルを任意のフォルダーに解凍し  "CLaunch.exe" を起動すれば、そのまま使用できます。<br>
+USBメモリなどのリムーバブルメディアへインストールする場合は、この方法を利用してください。<br>
+固定ディスクに手動インストールした場合は、必要に応じて "CLaunch.exe" のショートカットを作成し、スタートアップに登録してください。<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">アップデート</div>
+<div class="p2">
+以前のバージョンからアップデートする際は、必ず上書きインストールを行ってください。<br>
+以前のバージョンをアンインストールした場合、アイテムの登録情報や設定情報は全て削除されます。<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">アンインストール</div>
+<div class="p2">
+自動インストールした場合は、コントロールパネルの「プログラムと機能」に登録されているので、リストから「CLaunch」を選択し、「アンインストールと変更」を選択すれば自動で削除されます。<br>
+手動インストールした場合は解凍したファイルと、実行時に作成されたデータファイルをフォルダーごと削除してください。<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">データフォルダーの場所</div>
+<div class="p2">
+データフォルダーの場所はCLaunchのインストール先フォルダーによって異なります。<br>
+<div class="gap2"><br></div>
+
+UACにより書き込みが制限されているフォルダー("C:\Program Files"など)へインストールした場合：<br>
+&emsp;マルチユーザーモード (デフォルト) &nbsp;&nbsp;&nbsp;: C:\Users\ユーザー名\AppData\Roaming\CLaunch<br>
+&emsp;シングルユーザーモード (オプション)&nbsp;: C:\ProgramData\CLaunch<br>
+<div class="gap2"><br></div>
+
+書き込み制限のないフォルダーへインストールした場合：<br>
+&emsp;CLaunchのインストール先フォルダー配下の "Data" フォルダー<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">レジストリ</div>
+<div class="p2">
+レジストリは使用しません。<br>
+ただし自動インストール時は、下記の場所にアンインストール情報が登録されます。<br>
+<div class="gap2"><br></div>
+<b>[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall]</b><br>
+<div class="gap2"><br></div>
+この情報はアンインストール時に削除されます。<br>
+</div>
+
+</body>
+</html>

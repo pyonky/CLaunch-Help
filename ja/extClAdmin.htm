@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+<title>ClAdmin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">ClAdmin</div>
+
+<div class="p1">
+Windows Vista以降の環境ではUAC (ユーザーアカウント制御)の影響により、管理者の権限で実行されているプログラム (アプリケーションのインストーラやタスクマネージャなど)がアクティブ化されているときには、マウス操作やホットキーによるCLaunchの表示、および登録アイテムの直接起動ができません。<br>
+CLaunch自身を管理者の権限で起動することにより、この制約を回避することはできますが、そうするとエクスプローラーなど標準ユーザーの権限で実行されているプログラムから、ドラッグ＆ドロップでファイルを受け取ることができなくなります。<br>
+ClAdminはこれらの問題を同時に解決するための起動モジュールです。<br>
+
+<div class="gap1"><br></div>
+
+<div class="list">
+<img src="images/Dot_s.png" class="listicon">
+ClAdminを起動すると、同時にCLaunchが起動します。
+</div>
+<div class="list">
+<img src="images/Dot_s.png" class="listicon">
+ClAdminの起動時には、CLaunchと共通の<a href="extStartupOption.htm">コマンドラインパラメータ</a>を指定できます。
+</div>
+<div class="list">
+<img src="images/Dot_s.png" class="listicon">
+ClAdminを手動で起動すると、UACによる確認メッセージが表示されます。 (確認メッセージは「このコンピューターへの変更を許可しますか？」という内容ですが、実際に変更を加えることはありません。)
+</div>
+<div class="list">
+<img src="images/Dot_s.png" class="listicon">
+セットアップ時に「スタートアップに登録する」と「ClAdminから起動する」を選択した場合は、Windowsの起動時にClAdminが自動起動されます。このときに確認メッセージは表示されません。
+</div>
+</div>
+
+</body>
+</html>

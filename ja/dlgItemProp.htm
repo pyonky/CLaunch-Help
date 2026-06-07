@@ -1,0 +1,355 @@
+﻿<html>
+<head>
+<title>「アイテムのプロパティ」ダイアログBOX</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">「アイテムのプロパティ」ダイアログBOX</div>
+<div class="p1">「<a href="menuItem.htm">アイテムメニュー</a>」から「プロパティ」を選択するか、Altキーを押しながらアイテムを右クリックすると表示されます。</div>
+
+<div id="itemname">
+	<div class="h2"><img src="images/Dot.png">名前</div>
+	<div class="p2">ボタンまたはメニューアイテムに表示される文字列です。</div>
+</div>
+
+<div id="target">
+	<div class="h2"><img src="images/Dot.png">ファイル名</div>
+	<div class="p2">登録アイテムのファイル名です。<br>
+	ファイルやフォルダーのパス名、またはURLを入力してください。<br>
+	CLaunchのインストールフォルダーからの相対パス、および環境変数を使用することができます。</div>
+</div>
+
+<div id="parameters">
+	<div class="h2"><img src="images/Dot.png">パラメータ</div>
+	<div class="p2">プログラム実行時のコマンドラインパラメータを指定します。
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	プログラム、ドキュメント、URLアイテムのパラメータに、<b>&lt;clipboard&gt;</b> (クリップボード置換タグ) を設定しておくと、その部分がクリップボード内の文字列に置換され、起動するプログラムのコマンドラインへ渡されます。<br>
+	例えば、URLに「https://www.google.co.jp」、パラメータに「/search?q=&lt;clipboard&gt;」を設定したアイテムを作成しておき、クリップボードに文字列をコピーした状態でそのアイテムを起動すると、クリップボード内の文字列をキーワードにしてGoogle検索ができます。</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	フォルダーアイテムのパラメータ設定は、オプション「フォルダー」の「<a href="optFolder.htm">ファイラーを使用する</a>」が有効化されている場合にのみ意味を持ち、パラメータ文字列はファイラーのコマンドラインへ渡されます。<br>
+	特殊フォルダーの場合は、「shell:Desktop」(デスクトップ) や、「::{450D8FBA-AD25-11D0-98A8-0800361B1103}」(マイ ドキュメント) などを設定してください。ただし、使用するファイラーがこれらの仮想フォルダーを表す文字列に対応している必要があります。</div>
+	</div>
+</div>
+
+<div id="workdir">
+	<div class="h2"><img src="images/Dot.png">作業フォルダー (サブメニュー、フォルダー以外)</div>
+	<div class="p2">プログラム実行時のカレントディレクトリを指定します。<br>
+	CLaunchのインストールフォルダーからの相対パス、および環境変数を使用することができます。</div>
+</div>
+
+<div id="menuoptions">
+	<div class="h2"><img src="images/Dot.png">メニューオプション (サブメニューとフォルダーのみ)</div>
+	<div class="p2">サブメニュー、フォルダー展開メニュー、およびメニューを表示するタイプの<a href="extSpecialItem.htm">特殊アイテム</a>の、表示動作を制御するオプション文字列を指定します。<br>
+	<img src="images/Go.png"> <a href="extMenuOptions.htm">メニューオプション</a></div>
+</div>
+
+<div id="run">
+	<div class="h2"><img src="images/Dot.png">実行時の大きさ</div>
+	<div class="p2">プログラム開始時のウィンドウの状態を指定します。</div>
+</div>
+
+<div id="priority">
+	<div class="h2"><img src="images/Dot.png">優先度</div>
+	<div class="p2">プログラム実行時の優先度を指定します。<br>
+	プログラムまたはドキュメントアイテム専用の設定項目です。<br>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	プログラムの起動に問題が発生する場合は「通常」に設定してください。</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<span class="bracket">「</span>リアルタイム」や「高」を多用すると、システム全体のパフォーマンスが低下します。</div>
+	</div>
+</div>
+
+<div id="privilege">
+	<div class="h2"><img src="images/Dot.png">特権レベル (Windows Vista以降)</div>
+	<div class="p2">プログラム実行時の特権レベル(UAC環境におけるアプリケーションの権限レベル)を指定します。<br>
+	デフォルト設定で起動したアプリケーションの特権レベルは、CLaunchの特権レベルを継承します。<br>
+	そのため、この設定はCLaunchを起動した際の特権レベルに応じて、以下の様に意味合いが変化します。</div>
+
+	<div class="p2">
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	CLaunchが標準ユーザー権限で実行されている場合<br>
+	デフォルトの状態が「標準ユーザーとして実行」になり、プログラムアイテムは「管理者として実行」を選択できます。</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	CLaunchが管理者権限で実行されている場合<br>
+	デフォルトの状態が「管理者として実行」になり、プログラムとドキュメントアイテムは「標準ユーザーとして実行」を選択できます。</div>
+	</div>
+</div>
+
+<div id="tooltip">
+	<div class="h2"><img src="images/Dot.png">ツールチップ</div>
+	<div class="p2">ボタンまたはメニューアイテム上でカーソルを静止させたときに表示される文字列を指定します。</div>
+</div>
+
+<div id="shortcutkey">
+	<div class="h2"><img src="images/Dot.png">ショートカットキー</div>
+	<div class="p2">
+	対象アイテムを含むページまたはサブメニューが表示されているときに、アイテムを起動するためのキーボード操作を設定します。<br>
+	割り当てたいキーを入力した後、右側にあるスピンボタンを上下させると、割り当てたキーが指定回数連続して入力されたときにだけ、ショートカットキーとして受け付けられるようになります。
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<a href="useKeyboard.htm">基本操作に割り当てられているキー</a>は指定できません。</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	ショートカットキーは、CLaunchのウィンドウサイズを縮めたときに、 表示範囲外へ隠れるアイテムに対しても有効です。</div>
+	</div>
+</div>
+
+<div id="hotkey">
+	<div class="h2"><img src="images/Dot.png">ホットキー</div>
+	<div class="p2">
+	CLaunchのウィンドウが表示されていないときに、アイテムを起動するためのキーボード操作を設定します。<br>
+	割り当てたいキーを入力した後、右側にあるスピンボタンを上下させると、割り当てたキーが指定回数連続して入力されたときにだけ、ホットキーとして受け付けられるようになります。</div>
+
+	<div class="p2">
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<a href="optKeyboard.htm">CLaunch表示キー</a>に割り当てられているキーは指定できません。</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	他のアイテムでホットキーに割り当てられているキーを登録した場合、先に登録されていたホットキーは解除されます。</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	ホットキーは単独の英数字キーを避け、［Ctrl］、［Alt］、または[Windows]キーとの組み合わせを使用してください。(プログラム側では単独の文字キーであっても、無条件に登録を受け付けます。)</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	ホットキーは他のアプリケーションや常駐ソフトと競合する場合があるため、全ての組み合わせが使用できるとは限りません。</div>
+	</div>
+</div>
+
+<div id="mouselaunch">
+	<div class="h2"><img src="images/Dot.png">マウス直接起動</div>
+	<div class="p2">
+	CLaunchのウィンドウが表示されていないときに、アイテムを起動するためのマウス操作を設定します。<br>
+	「登録」ボタンをクリックすると、「<a href="dlgMouseDirect.htm">マウス直接起動の設定</a>」ダイアログBOXが表示されます。
+	</div>
+</div>
+
+<br><hr>
+
+<div id="chainlaunch">
+	<div class="h2"><img src="images/Dot.png">同時起動アイテム</div>
+	<div class="p2">対象アイテムを起動したとき、<a href="extChainLaunch.htm">同時に起動するアイテム</a>を設定します。<br>
+	クリックすると「起動アイテムの選択」ダイアログBOXが表示されます。
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<span class="bracket">「</span>起動アイテムの選択」ダイアログBOXで、「追加」ボタンをクリックすると、ページ名がドロップダウンリストで表示されるので、目的のアイテムを含むページまたはサブメニューを選択してください。<br>
+	追加された行の「アイテム名」列のセルをダブルクリックすると、選択したページ内のアイテムがドロップダウンリストで表示されるので、目的のアイテムを選択してください。</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	起動アイテムが登録されている行の「起動遅延」列のセルをダブルクリックすると、最初のアイテムを起動してから追加アイテムが起動されるまでの待ち時間を設定できます。<br>
+	マイナスの値を設定すると、メインアイテムよりも先に追加アイテムが起動します。</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<span class="bracket">「</span>上へ」、「下へ」ボタンでリストの順序を入れ替えることはできますが、表示順に起動されることは保証されません。</div>
+	</div>
+</div>
+
+<div id="changeicon">
+	<div class="h2"><img src="images/Dot.png">アイコン変更</div>
+	<div class="p2">ボタンまたはメニューアイテムに表示するアイコンやオーバーレイアイコンを指定します。<br>
+	クリックすると「アイコンの設定」ダイアログBOXが表示されます。
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	アイコンファイルには、任意の.exeファイル、.dllファイル、.icoファイル、および.iclファイルを指定できます。</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<span class="bracket">「</span>メニュー」のプレビューに表示されるアイコンは、サブメニューと検索ウィンドウの検索結果リストに共通使用され、デフォルト設定では16×16ピクセルのアイコンが表示されます。<br>
+	オプション「デザイン2」の「<a href="optDesign2.htm">表示モードごとに異なるデザインを使用する</a>」が有効化されている場合は、表示モード2用に取得したアイコン画像が使用されます。
+	</div>
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<span class="bracket">「</span>オーバーレイアイコンを表示する」をチェックして任意のアイコンファイルを指定すると、メインのアイコンに重ねて追加アイコンが表示されるようになります。<br>
+	<img src="images/Go.png"> <a href="extOverlayIcons.htm">オーバーレイアイコン</a></div>
+	</div>
+</div>
+
+<div id="dontupdateicon">
+	<div class="h2"><img src="images/Dot.png">アイコンを更新しない</div>
+	<div class="p2">
+	OKボタンを押したときにアイコンデータを再取得せず、キャッシュされているアイコン画像を使用します。また「<a href="extIconRefresh.htm">アイコンの一括更新</a>」の実行時にも更新対象から除外されます。
+	</div>
+</div>
+
+<div id="showshellmenu">
+	<div class="h2"><img src="images/Dot.png">右クリックでシェルのメニューを表示する</div>
+	<div class="p2">
+	アイテム上で右クリックしたときに、CLaunchのアイテムメニューではなく、シェルのコンテキストメニューが表示されるようになります。<br>
+	この設定を有効化した場合は、Shiftキーを押しながら右クリックすると、アイテムメニューが表示されます。
+	</div>
+</div>
+
+<br><hr>
+
+<div id="alreadyrunning">
+	<div class="h2"><img src="images/Dot.png">プログラムが既に起動している場合の処理 (プログラムまたはドキュメント)</div>
+	<div class="p2">一度プログラムを起動した後で、再度起動操作を行った際の動作を選択します。<br>
+	実際の動作はプログラムの仕様に依存するため、期待した動作にならない場合があります。<br>
+	プログラムの起動に問題が発生する場合は、「デフォルト」に設定してください。
+	</div>
+
+	<div class="p1">
+	<ul class="selection">
+	<li><b>デフォルト</b><br>
+	同じプログラムをもう一度起動します。
+
+	<li><b>アクティブ化</b><br>
+	実行中のプログラムのウィンドウをアクティブ化します。
+
+	<li><b>閉じる</b><br>
+	実行中のプログラムのウィンドウを閉じます。
+
+	<li><b>何もしない</b><br>
+	何もしません。<br>
+	詳細オプションの「対象ウィンドウの絞り込み条件」を指定することで、特定の条件に該当するウィンドウが存在しない場合のみ、プログラムを起動するように設定できます。
+	</ul>
+	</div>
+
+	<div class="p2">
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<span class="bracket">「</span>詳細オプション」ボタンをクリックすると「<a href="dlgMultiplex.htm">プログラム多重起動時の動作の詳細設定</a>」ダイアログBOXが表示されます。</div>
+	</div>
+</div>
+
+<div id="autounhook">
+	<div class="h2"><img src="images/Dot.png">フック自動解除の設定 (プログラムまたはドキュメント)</div>
+	<div class="p2">
+	「<a href="dlgUnhook.htm">フック自動解除の設定</a>」ダイアログBOXを表示し、<a href="extSuspend.htm">フックの解除</a>と再開を、プログラムの起動と終了に合わせて自動実行するための設定を行います。
+	</div>
+</div>
+
+<br><hr>
+
+<div id="folderopen">
+	<div class="h2"><img src="images/Dot.png">フォルダーの表示方法 (フォルダーアイテム)</div>
+	<div class="p2">フォルダーの表示方法を選択します。
+	</div>
+
+	<div class="p1">
+	<ul class="selection">
+	<li><b>開く</b><br>
+	対象フォルダーを、システムデフォルトのフォルダーウィンドウでオープンします。
+
+	<li><b>エクスプローラー</b><br>
+	対象フォルダーを、ナビゲーションペインが表示された状態のエクスプローラーでオープンします。
+
+	<li><b>メニュー展開</b><br>
+	対象フォルダーの内容を<a href="extFolderMenu.htm">メニュー展開表示</a>します。
+	</ul>
+	</div>
+</div>
+
+<div id="autoopenmenu">
+	<div class="h2"><img src="images/Dot.png">マウスオーバーで自動展開する (サブメニューまたはフォルダーアイテム)</div>
+	<div class="p2">
+	サブメニュー、または表示方法に「メニュー展開」が選択されているフォルダーのボタン上へカーソルを移動させるだけで、自動的にメニューが表示されるようになります。<br>
+	自動展開されたメニューは、他のボタン上へカーソルを移動させると自動で閉じます。<br>
+	メニューの自動展開が開始されるまでの待ち時間は、オプションの「<a href="optMenu.htm">メニュー</a>」で変更できます。
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>表示位置</b><br>メニューが自動展開される際の、表示位置を選択できます。</div>
+	</div>
+</div>
+
+<br><hr>
+
+<div id="recentitems">
+	<div class="h2"><img src="images/Dot.png">追加オプション (特殊アイテム「最近使用したアイテム」)</div>
+	<div class="p2">
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>最後に使用したアイテムを起動する</b><br>
+	アイテムをクリックした際に履歴メニューを表示せず、最後に起動したアイテムが直接起動されるようになります。<br>
+	このオプションを有効化した場合、アイテムのアイコンとツールチップは最後に起動したアイテムのものが表示されます。</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>右クリックで履歴をメニュー表示する</b><br>
+	上記のオプションが有効化されているアイテム上で右クリックした際に、アイテムメニューではなく、履歴メニューが表示されるようになります。<br>
+	このオプションを有効化した場合は、Shiftキーを押しながら右クリックすると、アイテムメニューが表示されます。</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>履歴の管理</b><br>
+	履歴の記録動作を設定するための「<a href="dlgHistory.htm">履歴の管理</a>」ダイアログBOXが表示されます。</div>
+
+	</div>
+</div>
+
+<br><hr>
+
+<div id="lastmenu">
+	<div class="h2"><img src="images/Dot.png">再表示の対象 (特殊アイテム「最後に表示したメニュー」)</div>
+	<div class="p2">再表示するメニューの種類を選択します。</div>
+
+	<div class="p1">
+	<ul class="selection">
+
+	<li><b>サブメニュー</b><br>
+	最後に表示したサブメニューを再表示します。<br>
+	メニュー展開したフォルダーは再表示の対象となりません。</li>
+
+	<li><b>フォルダー</b><br>
+	最後にメニュー展開したフォルダーを再度メニュー展開します。<br>
+	サブメニューは再表示の対象となりません。</li>
+
+	<li><b>両方</b><br>
+	サブメニューとフォルダー展開メニューのいずれかで、最後に表示したメニューを再表示します。</li>
+
+	</ul>
+	</div>
+</div>
+
+<hr>
+
+<div id="fcm_clipboard">
+	<div class="h2"><img src="images/Dot.png">追加オプション (特殊アイテム「クリップボードフォルダー展開」)</div>
+	<div class="p2">
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>対象がフォルダーでも親フォルダーを展開する</b><br>
+	クリップボードにフォルダーのパス名がコピーされている場合、通常はそのフォルダー自体をメニュー展開しますが、このオプションを有効化した場合は1階層上位のフォルダーが展開されるようになります。<br>
+	ファイルのパス名がコピーされている場合、動作に変化はありません。</div>
+	</div>
+</div>
+
+<br><hr>
+
+<div id="suspend_ss">
+	<div class="h2"><img src="images/Dot.png">追加オプション (特殊アイテム「スクリーンセーバー停止」)</div>
+	<div class="p2">
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>カーソルが画面端を離れたら停止状態を解除</b><br>
+	スクリーンセーバー停止機能を「<a href="optEdge.htm">エッジファンクション</a>」へ割り当てるためのオプションです。<br>
+	カーソルを画面端へ移動してスクリーンセーバーを停止状態にした後、カーソルを画面端から離した時点で、スクリーンセーバーの停止状態が解除されるようになります。</div>
+	</div>
+</div>
+
+<br><hr>
+
+<div id="powctrl">
+	<div class="h2"><img src="images/Dot.png">追加オプション (電源制御系アイテム)</div>
+	<div class="p2">
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>確認メッセージを表示</b><br>
+	シャットダウン処理を開始する前に確認するメッセージを表示します。</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>強制終了</b><br>
+	実行中のアプリケーションの応答を待たずにシャットダウン動作を実行します。<br>
+	強制終了は各アプリケーションの応答を待たずにシャットダウン動作に入るため、未保存のデータが失われる等の問題が発生する可能性もあります。自己責任でご利用ください。</div>
+
+	</div>
+</div>
+
+<br><hr>
+
+<div id="plugin">
+	<div class="h2"><img src="images/Dot.png">プラグインアイテムの設定 (プラグインアイテム)</div>
+	<div class="p2">
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>アイテムのプロパティ</b><br>
+	プラグインアイテムの個別設定を行うためのダイアログBOXが表示されます。</div>
+
+	<div class="list"><img src="images/Dot_s.png" class="listicon">
+	<b>プラグイン全体の設定</b><br>
+	プラグインの全般的な設定を行うためのダイアログBOXが表示されます。</div>
+
+	</div>
+</div>
+
+</body>
+</html>

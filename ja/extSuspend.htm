@@ -1,0 +1,80 @@
+﻿<html>
+<head>
+<title>CLaunchの機能を一時的に無効化する</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">CLaunchの機能を一時的に無効化する</div>
+
+<div class="p1">
+ゲームのプレイ中や動画の再生中などCLaunchが邪魔になる状況下では、以下の方法で機能を一時的に無効化することが出来ます。<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">制限モード</div>
+
+<div class="p2">
+任意のタイミングでCLaunchの機能を無効化します。<br>
+制限モード中に無効化される機能は、オプション「無効化」の「<a href="optDisable.htm">制限モード中に無効化する機能</a>」で選択できます。<br>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+制限モードへ移行するには、「<a href=".htm">メインメニュー</a>」から「制限モード」を選択するか、タスクトレイのアイコン <img src="images/CLTray.ico"> をダブルクリックしてください。<br>
+制限モードへ切り替わるとタスクトレイのアイコンが <img src="images/CLStop.ico"> に変化します。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+制限モード中に再度「メインメニュー」から「制限モード」を選択するか、タスクトレイのアイコンをダブルクリックすれば、制限モードが解除されます。<br>
+タスクトレイのアイコンが非表示設定になっていて制限モードの解除操作がができなくなった場合は、<a href="extStartupOption.htm">CLaunchを多重起動</a>することで強制的にウィンドウを表示させられます。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<a href="extSpecialItem.htm">特殊アイテムの「制限モード」</a>をボタンへ登録し、アイテムのプロパティで<a href="dlgItemProp.htm#hotkey">ホットキー</a>を割り当てておけば、制限モードのON/OFFをホットキーで制御できるようになります。その場合はオプション「無効化」の「<a href="optDisable.htm">制限モード中に無効化する機能</a>」で、「ホットキー」のチェックを外しておく必要があります。
+</div>
+
+</div>
+
+<div class="h2"><img src="images/Dot.png">全画面表示のアプリケーションがアクティブ化されている時に無効化する</div>
+
+<div class="p2">
+全画面表示のアプリケーションがアクティブ化されているときに、選択した機能を自動的に無効化することができます。<br>
+無効化される機能は、オプション「無効化」の「<a href="optDisable.htm">フルスクリーンのウィンドウがアクティブな時に無効化する機能</a>」で選択できます。<br>
+<div class="gap1"><br></div>
+
+<div class="note">
+※ アプリケーションによっては全画面状態を正しく検出できない場合があります。
+</div>
+
+</div>
+
+<div class="h2"><img src="images/Dot.png">特定のアプリケーションがアクティブ化されている時に無効化する</div>
+
+<div class="p2">
+選択した任意のアプリケーションがアクティブ化されているときに、選択した機能を自動的に無効化することができます。<br>
+無効化される機能は、オプション「無効化」の「<a href="optDisable.htm">アプリケーションごとの無効化設定</a>」で選択できます。
+</div>
+
+<div class="h2"><img src="images/Dot.png">フック解除</div>
+
+<div class="p2">
+ゲームソフトなどで制限モードが機能しない場合には、一時的にフックを解除することで強制的にCLaunchの機能を無効化できます。<br>
+またCLaunchが常駐していることでゲームのパフォーマンスが低下する、起動時にエラーメッセージが表示されるといった症状や、チートツールと誤認識されるといった問題も、アプリケーションの起動前にフックを解除しておくことで解決する可能性があります。<br>
+フック解除中はマウス操作やホットキーによるCLaunchの表示、および登録アイテムの直接起動が出来なくなります。不具合が発生するアプリケーションの利用が終わったらフックを再開させてください。<br>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+フックを解除するには、「<a href="menuMain.htm">メインメニュー</a>」から「フック解除」を選択してください。フック解除中はタスクトレイのアイコンが <img src="images/CLStop.ico"> に変化します。
+</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+フックが解除された状態で再度「メインメニュー」から「フック解除」を選択すると、フックが再開されます。<br>
+タスクトレイのアイコンが非表示設定になっていてフックの再開操作ができなくなった場合は、<a href="extStartupOption.htm">CLaunchを多重起動</a>することで強制的にウィンドウを表示させられます。
+</div>
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+アイテムのプロパティで「<a href="dlgItemProp.htm#autounhook">フック自動解除の設定</a>」をしておくと、プログラムの起動前に自動でフックが解除されるようになります。<br>
+フックを自動解除した後、起動したプログラムや特定のプログラムが終了した時点で、自動的にフックを再開するように設定することもできます。
+</div>
+
+</div>
+
+</body>
+</html>

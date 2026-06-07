@@ -1,0 +1,81 @@
+﻿<html>
+<head>
+<title>Temporarily Disabling CLaunch Functions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">Temporarily Disabling CLaunch Functions</div>
+
+<div class="p1">
+When CLaunch becomes intrusive, such as while playing games or watching videos, its functions can be temporarily disabled using the methods described below.<br>
+</div>
+
+<div class="h2"><img src="images/Dot.png">Restricted Mode</div>
+
+<div class="p2">
+Restricted Mode allows you to disable CLaunch functions at any time.<br>
+The functions disabled while Restricted Mode is active can be selected in <b><a href="optDisable.htm">Functions to disable in Restricted Mode</a></b> on the <b>Disabling</b> tab of the Options dialog.<br>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+To enter Restricted Mode, select <b>Restricted Mode</b> from the <b><a href="menuMain.htm">Main Menu</a></b>, or double-click the task tray icon <img src="images/CLTray.ico">.<br>
+When Restricted Mode is activated, the task tray icon changes to <img src="images/CLStop.ico">.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+To exit Restricted Mode, select <b>Restricted Mode</b> again from the <b>Main Menu</b>, or double-click the task tray icon.<br>
+If the task tray icon is hidden and Restricted Mode cannot be turned off, you can forcibly display the window by <a href="extStartupOption.htm">launching CLaunch.exe again</a>.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+By registering the <a href="extSpecialItem.htm"><b>Restricted Mode</b> special item</a> to a button and assigning a <a href="dlgItemProp.htm#hotkey">hotkey</a> in <b>Item Properties</b>, you can toggle Restricted Mode using a hotkey.
+In this case, be sure to uncheck <b>Hotkeys</b> in <b><a href="optDisable.htm">Functions to disable in Restricted Mode</a></b> on the <b>Disabling</b> tab of the Options dialog.
+</div>
+
+</div>
+
+<div class="h2"><img src="images/Dot.png">Disabling While a Full-screen Application Is Active</div>
+
+<div class="p2">
+Selected functions can be automatically disabled while a full-screen application is active.<br>
+The functions to disable can be selected in <b><a href="optDisable.htm">Functions to disable while a full-screen app is active</a></b> on the <b>Disabling</b> tab of the Options dialog.<br>
+<div class="gap1"><br></div>
+
+<div class="note">
+* Depending on the application, full-screen status may not be detected correctly.
+</div>
+
+</div>
+
+<div class="h2"><img src="images/Dot.png">Disabling When Specific Applications Are Active</div>
+
+<div class="p2">
+Selected functions can be automatically disabled when specified applications are active.<br>
+The functions to disable can be selected in <b><a href="optDisable.htm">Settings to disable for specific applications</a></b> on the <b>Disabling</b> tab of the Options dialog.
+</div>
+
+<div class="h2"><img src="images/Dot.png">Unhooking</div>
+
+<div class="p2">
+If Restricted Mode does not work properly with certain applications, such as games, you can forcibly disable CLaunch functions by temporarily unhooking them.<br>
+Unhooking may also help resolve issues such as reduced game performance, error messages at startup, or false detection as a cheat tool, by unhooking before launching the application.<br>
+While unhooked, CLaunch cannot be shown using mouse actions or hotkeys, and registered items cannot be launched directly. After finishing with the affected application, be sure to re-enable hooks.<br>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+To unhook, select <b>Unhook</b> from the <b><a href="menuMain.htm">Main Menu</a></b>. While unhooked, the task tray icon changes to <img src="images/CLStop.ico">.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+Selecting <b>Unhook</b> again from the <b>Main Menu</b> will re-enable hooks.<br>
+If the task tray icon is hidden and hooks cannot be re-enabled, you can forcibly display the window by <a href="extStartupOption.htm">launching CLaunch.exe again</a>.
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+By configuring <a href="dlgItemProp.htm#autounhook"><b>Auto-unhook Settings</b></a> in <b>Item Properties</b>, hooks can be automatically disabled before launching a program.<br>
+You can also configure hooks to be automatically re-enabled when the launched program or specified program exits.
+</div>
+
+</body>
+</html>

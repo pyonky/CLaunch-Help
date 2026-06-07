@@ -1,0 +1,287 @@
+/* Style Sheet for CLaunch English Help */
+
+/* Base */
+body {
+  margin: 8px 8px 30px 8px;
+  background: #ffffcc;
+  color: #000;
+  font-family:
+    "Segoe UI",
+    "Arial",
+    sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+a:link, a:active, a:visited { color: #0000ff; }
+
+/* Page Title */
+.h1 {
+  padding-left: 25px;
+  text-indent: -25px;
+  color: #000080;
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+.h1 img {
+  vertical-align: baseline;
+  margin-right: 7px;
+  padding: 0
+}
+
+/* Section Heading */
+.h2 {
+  padding-left: 20px;
+  text-indent: -20px;
+  font-weight: bold;
+  margin: 20px 0 5px 25px;
+}
+.h2 img {
+  vertical-align: baseline;
+  margin-right: 7px;
+  padding: 0
+}
+.h2-thin {
+  margin-top: 10px
+}
+
+/* Paragraphs */
+.p1 { margin: 0 0 0 25px; }
+.p2 { margin: 0 0 0 40px; }
+.p3 { margin: 0 0 0 55px; }
+.links { margin: 15px 0 0px 20px; }
+
+/* Adjustments */
+.gap1 { margin: -15px 0 0 0; }
+.gap2 { margin: -10px 0 0 0; }
+.gap3 { margin: -5px 0 0 0; }
+.example { margin: 5 0 0 10px; }
+.bracket { margin-left: -0.5em; }
+
+/* Image Blocks */
+.figure {
+  margin: 10px 0 10px 40px;
+  padding: 0;
+  list-style: none;
+}
+.figure img { display: block; }
+
+/* Tables */
+
+/* General Examples */
+table.exmtbl {
+  font-size: 11pt;
+  border-collapse: collapse;
+  margin: 0;
+}
+table.exmtbl td {
+  vertical-align: top;
+  padding: 2px 10px 2px 0;
+}
+table.exmtbl td.exmhead {
+  white-space: nowrap;
+}
+table.exmtbl td.exmhead2 {
+  padding-left: 30px;
+  padding-right: 3px;
+  white-space: nowrap;
+}
+
+/* Shortcut Keys */
+table.keytbl {
+  font-size: 12pt;
+  border-collapse: collapse;
+  margin: 8 0 0 3px;
+}
+table.keytbl td {
+  vertical-align: middle;
+  padding: 0 0 4px 0;
+}
+table.keytbl td.key {
+  width: 270px;
+  white-space: nowrap;
+  padding-right: 4px;
+}
+.keytbl .sub {
+  display: inline-block;
+  padding-left: 0.5em;
+}
+
+/* Options Switches*/
+table.opttbl {
+  font-size: 12pt;
+  border-collapse: collapse;
+}
+table.opttbl td {
+  vertical-align: top;
+  padding: 0 0 0 0;
+}
+table.opttbl tr.wide td {
+  padding-bottom: 15px;
+}
+table.opttbl tr.narrow td {
+  padding-bottom: 2px;
+}
+/* 1st column: option switches */
+table.opttbl td.optsw1 {
+  white-space: nowrap;
+  padding-right: 5px;
+}
+td.optsw1 {
+  font-weight: bold;
+}
+table.opttbl td.optsw2 {
+  text-align: right;
+  white-space: nowrap;
+  padding-right: 5px;
+}
+td.optsw2 {
+  font-weight: bold;
+}
+/* 2nd column: separator ':' */
+table.opttbl td.sep {
+  width: 14px;
+  text-align: center;
+  white-space: nowrap;
+}
+/* Format : Åc */
+table.opttbl .fmtlabel {
+  font-style: italic;
+  font-weight: bold;
+}
+table.opttbl .fmt {
+  font-family: Consolas, "Courier New", monospace;
+  white-space: nowrap;
+}
+
+/* Menu Option Examples */
+table.menuoptexm {
+  font-size: 12pt;
+  border-collapse: collapse;
+  margin: 0;
+}
+table.menuoptexm td {
+  vertical-align: top;
+  padding: 2px 20px 6px 0;
+}
+table.menuoptexm td.exmsw {
+  white-space: nowrap;
+}
+td.exmsw {
+  font-family: Consolas, "Courier New", monospace;
+  font-weight: bold;
+}
+
+/* Notes */
+.note {
+  padding-left: 14px;
+  text-indent: -14px;
+}
+.note_num {
+  padding-left: 22px;
+  text-indent: -22px;
+}
+
+/* Icon-bulleted List */
+.list {
+  padding-left: 20px;
+  text-indent: -20px;
+  line-height: 1.5;
+  margin: 5px 0 0 0;
+}
+.listicon {
+  vertical-align: baseline;
+  margin-right: 3px;
+}
+.list-wide {
+  margin: 10px 0 0 0;
+}
+
+/* ul under Icon-bulleted List (p1) */
+.p1list-ul {
+  padding-left: 65px;
+  margin: 5px 0 0 0;
+}
+.p1list-ul li {
+  margin: 0 0 4px 0;
+}
+
+/* ul under Icon-bulleted List (p2) */
+.p2list-ul {
+  padding-left: 80px;
+  margin: 8px 0 0 0;
+}
+.p2list-ul li {
+  margin: 0 0 4px 0;
+}
+
+/* ul in p1 */
+.p1 ul {
+  padding-left: 30px;
+  margin: 10px 0 10px 0;
+}
+.p1 li {
+  margin: 0 0 5px 0;
+}
+
+/* ul in p2 */
+.p2 ul {
+  padding-left: 25px;
+  margin: 10px 0 10px 0;
+}
+.p2 li {
+  margin: 0 0 5px 0;
+}
+
+/* ul for selection */
+.selection {
+  padding-left: 45px;
+  margin: 5px 0 20px 0;
+}
+.selection li {
+  margin: 0 0 10px 10px;
+}
+
+/* ul for options */
+.options {
+  padding-left: 40px;
+  margin: 20px 0 0 0;
+}
+.options li {
+  margin: 0 0 10px 0;
+}
+
+/* Overview Page Header */
+.help_header_frame {
+  border-top:5px solid #598EC9;
+  border-bottom:5px solid #598EC9;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-bottom:2em;
+}
+
+.help_header {
+  background-color:#598EC9;
+  color:#ffffff;
+  line-height: 0.8;
+  padding:0.5em 2em;
+  overflow:hidden;
+  zoom:1;
+}
+
+.help_icon {
+  float:right;
+  display:block;
+}
+
+.help_title_main {
+  font-size:2.1em;
+}
+
+.help_title_sub {
+  font-size:1.1em;
+  font-weight:normal;
+  margin-left:1em;
+}
+

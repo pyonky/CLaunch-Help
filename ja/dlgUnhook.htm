@@ -1,0 +1,51 @@
+﻿<html>
+<head>
+<title>「フック自動解除の設定」ダイアログBOX</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">「フック自動解除の設定」ダイアログBOX</div>
+
+<div class="p1">プログラムまたはドキュメントのプロパティで「<a href="dlgItemProp.htm#autounhook">フック自動解除の設定</a>」ボタンをクリックすると表示されます。</div>
+
+<br><hr><br>
+
+<div class="p1">以下の項目は、このダイアログBOXを開いたアイテムの固有設定です。</div>
+
+<div class="h2"><img src="images/Dot.png">プログラムの起動前にフックを解除する</div>
+<div class="p2">アイテムに登録されているプログラムを起動する前に、自動で<a href="extSuspend.htm">フックを解除</a>します。<br>
+他のアイテムの<a href="extChainLaunch.htm">同時起動アイテム</a>として起動された場合、このオプションは無視されます。
+</div>
+
+<div class="h2"><img src="images/Dot.png">起動したプログラムが終了したら自動でフックを再開する<sup>※1</sup></div>
+<div class="p2">起動したプログラムの実行状態を監視し、終了を検知したら自動でフックを再開します。<br>
+管理者の権限でプログラムを起動した場合、このオプションは無視されます。
+</div>
+
+<div class="h2"><img src="images/Dot.png">以下のプログラムが終了したら自動でフックを再開する<sup>※1</sup></div>
+<div class="p2">任意に指定したプログラムの実行状態を監視し、終了を検知したら自動でフックを再開します。</div>
+
+<br>
+<div class="p1">
+<div class="note_num">
+<b>※1 フック再開オプションを2つとも有効設定にした場合、何れか一方のプログラムの終了を検知した時点でフックは再開されます。</b>
+</div>
+</div>
+
+</div>
+
+<br><hr><br>
+
+<div class="p1">以下の項目は全ての、登録アイテムに影響する共通設定です。</div>
+
+<div class="h2"><img src="images/Dot.png">フック解除からプログラム起動までの遅延時間</div>
+<div class="p2">フックを解除した後、設定された時間が経過するまで待ってから登録プログラムを起動します。</div>
+
+<div class="h2"><img src="images/Dot.png">CLaunchを表示した時にフックを再開する</div>
+<div class="p2">フックの再開操作を手動で行う際に、「<a href="menuMain.htm">メインメニュー</a>」から「フック解除」を再選択しなくても、CLaunchのウィンドウを表示した時点でフックが再開されるようになります。<br>フック解除中はタスクトレイのアイコンをクリックするか、<a href="extStartupOption.htm">CLaunchを多重起動</a>することでCLaunchのウィンドウを表示させることができます。<br></div>
+
+</body>
+</html>

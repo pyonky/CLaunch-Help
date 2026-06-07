@@ -1,0 +1,52 @@
+﻿<html>
+<head>
+<title>「アプリケーションごとの無効化設定」ダイアログBOX</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+
+<div class="h1"><img src="images/Title.png">「アプリケーションごとの無効化設定」ダイアログBOX</div>
+
+<div class="p1">
+オプション「無効化」の「<a href="optDisable.htm">アプリケーションごとの無効化設定</a>」の「設定」ボタンをクリックすると表示されます。<br>
+指定したアプリケーションがアクティブ化されているときに、選択した機能が無効化されるように設定できます。
+
+<div class="gap1"><br></div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+上部リストの空白行が選択されている状態で「ウィンドウタイトル」、「ウィンドウクラス」、「実行ファイル名」の何れかに条件を入力すると、自動的に無効化の対象として登録されます。<br>
+下部のチェックBOXで、対象がアクティブ化されているときに無効化したい機能を選択してください。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<span class="bracket">「</span>ウィンドウ参照」ボタンをクリックすると実行中のアプリケーションがリスト表示されるので、目的のアプリケーションを選択してOKボタンをクリックすれば、ターゲットの情報を取得することができます。<br>
+リストから目的のアプリケーションを見付けられない場合は、「ウィンドウを選択」ボタンをクリックし、アプリケーションのウィンドウで任意の場所をクリックすると、リスト内のアイテムが自動選択されます。<br>
+複数の条件が設定されていると、全ての条件にマッチするウィンドウだけが対象となるため、不要な条件は削除して空欄にしてください。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+別のアプリケーションを無効化の対象として追加登録したい場合は、空白行を選択し直してから新たに条件を入力してください。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<span class="bracket">「</span>ウィンドウタイトル」は部分一致、「ウィンドウクラス」は前方一致で判定されます。
+</div>
+
+<div class="list"><img src="images/Dot_s.png" class="listicon">
+<span class="bracket">「</span>実行ファイル名」はパス名を指定した場合とファイル名のみを指定した場合とで動作が異なります。<br>
+フルパス名またはファイル名のみを指定した場合は完全一致で判定されますが、フォルダーのパス名を指定した場合は前方一致判定となるため、指定したフォルダーの配下に置かれている全てのプログラムが無効化の対象となります。<br>
+<div class="gap1"><br></div>
+
+<table class="exmtbl">
+<tr><td class="exmhead">例1)</td><td><span class="bracket">「</span>C:\games\main\abc.exe」を指定した場合 <span class="bracket">「</span>C:\games\main\abc.exe」は無効化の対象となり、 <span class="bracket">「</span>C:\games\sub\abc.exe」は対象から除外されます。</td></tr>
+<tr><td class="exmhead">例2)</td><td><span class="bracket">「</span>abc.exe」を指定した場合 <span class="bracket">「</span>C:\games\main\abc.exe」と <span class="bracket">「</span>C:\games\sub\abc.exe」は共に無効化の対象となります。</td></tr>
+<tr><td class="exmhead">例3)</td><td><span class="bracket">「</span>C:\games」を指定した場合 <span class="bracket">「</span>C:\games\main\abc.exe」、 <span class="bracket">「</span>C:\games\sub\abc.exe」、 <span class="bracket">「</span>C:\games\sub\xyz.exe」は全て無効化の対象となります。</td></tr>
+</table>
+</div>
+
+</div>
+
+</body>
+</html>
