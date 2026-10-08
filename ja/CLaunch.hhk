@@ -134,6 +134,10 @@
 		<param name="Local" value="extSuspend.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="非アクティブモード">
+		<param name="Local" value="extNoActive.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="フック解除">
 		<param name="Local" value="extSuspend.htm">
 		</OBJECT>

@@ -130,6 +130,10 @@
 		<param name="Local" value="extSuspend.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Non-Activating Mode">
+		<param name="Local" value="extNoActive.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Unhook">
 		<param name="Local" value="extSuspend.htm">
 		</OBJECT>
@@ -270,7 +274,7 @@
 		<param name="Local" value="dlgItemProp.htm#hotkey">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Mouse Launch>
+		<param name="Name" value="Direct Mouse Launch">
 		<param name="Local" value="dlgItemProp.htm#mouselaunch"">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">

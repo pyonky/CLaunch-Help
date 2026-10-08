@@ -27,7 +27,6 @@ To specify multiple words, separate them with spaces.
 <tr class="wide"><td class="optsw1">/t</td><td class="sep">:</td><td>Tooltips will be displayed when the cursor is over the menu items. It takes precedence over the <b>Show tooltips</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.</td></tr>
 <tr class="wide"><td class="optsw1">/is</td><td class="sep">:</td><td>Specifies the display size of menu icons. It takes precedence over the <b>Icon size</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.<br>
 <span class="fmtlabel">Format</span> : <span class="fmt">/is[</span>icon size<span class="fmt">]</span></td></tr>
-<tr class="wide"><td class="optsw1">/il</td><td class="sep">:</td><td>Uses the icons for buttons. It takes precedence over the <b>Use large icons</b> setting in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.</td></tr>
 <tr class="wide"><td class="optsw1">/p</td><td class="sep">:</td><td>Specifies the coordinates to display the menu.<br>
 <span class="fmtlabel">Format</span> : <span class="fmt">/p[</span>X coordinate<span class="fmt">]:[</span>Y coordinate<span class="fmt">]</span></td></tr>
 </table>
@@ -39,7 +38,7 @@ To specify multiple words, separate them with spaces.
 <div class="example">
 <table class="menuoptexm">
 <tr><td class="exmsw">/r10 /c3</td><td>Displays the menu in 10 rows and 3 columns.</td></tr>
-<tr><td class="exmsw">/il /is32</td><td>Uses the icons for buttons and displays them by 32 x 32 pixels.</td></tr>
+<tr><td class="exmsw">/is32</td><td>Displays icons at 32 x 32 pixels.</td></tr>
 <tr><td class="exmsw">/p400:300</td><td>The menu will be displayed to coordinates of X=400 and Y=300.</td></tr>
 </table>
 </div>
@@ -68,7 +67,11 @@ If no sort option is specified, the files will be sorted in ascending order by f
 
 <tr class="wide"><td class="optsw2">/in</td><td class="sep">:</td><td>The icons will not be displayed.</td></tr>
 
+<tr class="wide"><td class="optsw2">/il</td><td class="sep">:</td><td>Uses 256 x 256 system icons. This option takes precedence over <b>Use extra-large system icons</b> in the <a href="optMenu.htm"><b>Menus</b></a> tab of the Options dialog.</td></tr>
+
 <tr class="wide"><td class="optsw2">/h</td><td class="sep">:</td><td>The hidden files will be displayed. (The system files will also be displayed in Windows 7 or later.)</td></tr>
+
+<tr class="wide"><td class="optsw2">/ze</td><td class="sep">:</td><td>Displays the contents of ZIP archives as child menus.</td></tr>
 
 <tr class="narrow"><td class="optsw2">/f</td><td class="sep">:</td><td>Specifies the filter operation by combination with the following characters.</td></tr>
 <tr class="narrow"><td class="optsw2">i</td><td class="sep">:</td><td>The files specified by the filter strings will be hidden.</td></tr>

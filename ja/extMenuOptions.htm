@@ -27,7 +27,6 @@
 <tr class="wide"><td class="optsw1">/t</td><td class="sep">：</td><td>カーソルをメニューアイテム上へ移動させたときにツールチップを表示します。オプションの「<a href="optMenu.htm">ツールチップを表示する</a>」よりも優先されます。</td></tr>
 <tr class="wide"><td class="optsw1">/is</td><td class="sep">：</td><td>メニューアイコンの表示サイズを指定します。オプションの「<a href="optMenu.htm">アイコンサイズ</a>」よりも優先されます。<br>
 <span class="fmtlabel">【書式】 </span>/is[アイコン表示サイズ]</td></tr>
-<tr class="wide"><td class="optsw1">/il</td><td class="sep">：</td><td>ボタン用のアイコンを使用します。オプションの「<a href="optMenu.htm">大きいアイコンを使用する</a>」よりも優先されます。</td></tr>
 <tr class="wide"><td class="optsw1">/p</td><td class="sep">：</td><td>指定座標にメニューを表示します。<br>
 <span class="fmtlabel">【書式】 </span>/p[X座標]:[Y座標]</td></tr>
 </table>
@@ -39,8 +38,8 @@
 <div class="example">
 <table class="menuoptexm">
 <tr valign="top"><td class="exmsw">/r10 /c3</td><td>メニューを10行、3列で表示します。</td></tr>
-<tr valign="top"><td class="exmsw">/il /is32</td><td>ボタン用のアイコンを使用し、32×32ピクセルで表示します。</td></tr>
-<tr valign="top"><td class="exmsw">/p400:300</td><td>画面左上隅から右に400ドット、下に300ドットの位置へメニューを表示します。</td></tr>
+<tr valign="top"><td class="exmsw">/is32</td><td>アイコンを32×32ピクセルで表示します。</td></tr>
+<tr valign="top"><td class="exmsw">/p400:300</td><td>画面左上隅から右に400ピクセル、下に300ピクセルの位置へメニューを表示します。</td></tr>
 </table>
 </div>
 </div>
@@ -68,7 +67,11 @@
 
 <tr class="wide"><td class="optsw2">/in</td><td class="sep">：</td><td>アイコンを表示しません。</td></tr>
 
+<tr class="wide"><td class="optsw2">/il</td><td class="sep">：</td><td>256×256ピクセルのシステムアイコンを使用します。オプションの「<a href="optMenu.htm">特大アイコンを使用する</a>」よりも優先されます。</td></tr>
+
 <tr class="wide"><td class="optsw2">/h</td><td class="sep">：</td><td>隠し属性のファイルを表示します。 (Windows 7 以降は、システム属性のファイルも表示されます。)</td></tr>
+
+<tr class="wide"><td class="optsw2">/ze</td><td class="sep">：</td><td>Zip書庫の内容を子メニューとして展開表示します。</td></tr>
 
 <tr class="narrow"><td class="optsw2">/f</td><td class="sep">：</td><td>以下の文字と組み合わせて、フィルタ動作を指定します。</td></tr>
 <tr class="narrow"><td class="optsw2">i</td><td class="sep">：</td><td>フィルタ文字列で指定されたファイルを非表示にします。</td></tr>

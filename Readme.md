@@ -18,11 +18,11 @@ https://pyonky.github.io/CLaunch-Help/ja/
 
 ```text
 en/
+    images/        Images used by the documentation
     *.htm          HTML help pages
     *.hhc          Table of contents for HTML Help Workshop
     *.hhk          Index for HTML Help Workshop
     *.hhp          Project file for HTML Help Workshop
-    images/        Images used by the documentation
     help.css       Stylesheet for help pages
     online.css     Stylesheet for online documentation
     index.html     Online help frame

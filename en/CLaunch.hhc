@@ -88,6 +88,10 @@
 			<param name="Local" value="extSuspend.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Non-Activating Mode">
+			<param name="Local" value="extNoActive.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Item Search">
 			<param name="Local" value="extSearchItem.htm">
 			</OBJECT>
@@ -193,7 +197,7 @@
 			<param name="Local" value="dlgDesignModern.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Mouse Direct Launch dialog">
+			<param name="Name" value="Direct Mouse Launch dialog">
 			<param name="Local" value="dlgMouseDirect.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
